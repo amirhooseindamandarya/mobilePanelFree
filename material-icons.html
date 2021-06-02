@@ -1,0 +1,1366 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" href="img/favicon-apple.png">
+    <link rel="icon" href="img/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap-4.1.3/css/bootstrap.min.css">
+
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="vendor/materializeicon/material-icons.css">
+
+    <!-- aniamte CSS -->
+    <link rel="stylesheet" href="vendor/animatecss/animate.css">
+
+    <!-- swiper carousel CSS -->
+    <link rel="stylesheet" href="vendor/swiper/css/swiper.min.css">
+
+    <!-- daterange CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap-daterangepicker-master/daterangepicker.css">
+
+    <!-- footable CSS -->
+    <link rel="stylesheet" href="vendor/footable-bootstrap/css/footable.bootstrap.min.css">
+
+    <!-- نقشه بردار CSS -->
+    <link rel="stylesheet" href="vendor/jquery-jvectormap/jquery-jvectormap-2.0.3.css">
+
+    <!-- app CSS -->
+    <link id="theme" rel="stylesheet" href="css/purplesidebar.css" type="text/css">
+
+    <title>GoTRI  - Mobile</title>
+</head>
+
+<body style="text-align: right;direction: rtl"class="fixed-header sidebar-right-close sidebar-left-close">
+    <!-- page loader -->
+    <div class="loader justify-content-center pink-gradient">
+        <div class="align-self-center text-center">
+            <div class="logo-img-loader">
+                <img src="img/loader-hole.png" alt="" class="logo-image">
+                <img src="img/loader-bg.png" alt="" class="logo-bg-image">
+            </div>
+            <h2 class="mt-3 font-weight-light">گوتری<br><small>- موبایل -</small></h2>
+            <p class="mt-2 text-white">همه چیز عالی آماده می شود ...</p>
+        </div>
+    </div>
+    <!-- page loader ends  -->
+
+    <div class="wrapper">
+        <!-- main header -->
+        <header class="main-header">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-auto px-0">
+                        <button class="btn pink-gradient btn-icon" id="left-menu"><i class="material-icons">widgets</i></button>
+                        <a href="index.html" class="logo"><img src="img/logo-icon.png" alt=""><span class="text-hide-xs"><b>گو</b>تری<br><span class="small">- موبایل -</span></span>
+                        </a>
+                        <form class="search-header">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder = "جستجو ...">
+                                <div class="input-group-append">
+                                    <button class="btn " type="button"><i class="material-icons">search</i></button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="col px-0 text-right">
+                        <button class="btn btn-search btn-icon header-color-secondary" type="button"><i class="material-icons">search</i></button>
+
+                        <div class="dropdown d-inline-block text-hide-xs">
+                            <a class="btn header-color-secondary btn-icon dropdown-toggle caret-none" href="#" role="button" id="dropdownmessage2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <figure class="avatar avatar-24 vm d-inline-block border"><img src="img/india.png" alt=""></figure>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownmessage2">
+                                <div class="dropdown-item">
+                                    <figure class="avatar avatar-24 mr-2 vm d-inline-block"><img src="img/india.png" alt=""></figure> ایران
+                                </div>
+                                <div class="dropdown-item">
+                                    <figure class="avatar avatar-24 mr-2 vm d-inline-block"><img src="img/canada.png" alt=""></figure> کانادا
+                                </div>
+                                <div class="dropdown-item">
+                                    <figure class="avatar avatar-24 mr-2 vm d-inline-block"><img src="img/unitedstates.png" alt=""></figure> آمریکا
+                                </div>
+                                <div class="dropdown-item">
+                                    <figure class="avatar avatar-24 mr-2 vm d-inline-block"><img src="img/uk.png" alt=""></figure> انگلستان
+                                </div>
+                                <div class="dropdown-item">
+                                    <figure class="avatar avatar-24 mr-2 vm d-inline-block"><img src="img/china.png" alt=""></figure> چین
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown d-inline-block">
+                            <a class="btn header-color-secondary btn-icon dropdown-toggle caret-none" href="#" role="button" id="dropdownmessage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">mail_outline</i>
+                                <span class="status-number bg-danger text-white">9+</span>
+                            </a>
+                            <div class="dropdown-menu notification-dropdown align-center arrow-top pt-0" aria-labelledby="dropdownmessage">
+                                <div class="arrow pink-gradient"></div>
+                                <div class="pink-gradient py-3 text-center">
+                                    <h5 class="mb-0">پیام ها </h5>
+                                    <p class="mb-0">فقط پیام های دریافتی </p>
+                                </div>
+                                <div class="media new">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user2.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class="mt-0">آلیزی جانسون </h5>
+                                        <p class="mb-2">فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                        <a href=""> پاسخ دهید </a>
+                                        <a href="" class = "ml-2"> مشاهده </a>
+                                    </div>
+                                </div>
+                                <a href="#" class="media pink-gradient-active new">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user3.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class="my-0">دونالد کوستاپور </h5>
+                                        <small class="text-muted d-block mb-2">2:05 صبح</small>
+                                        <p>فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="media pink-gradient-active">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user2.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class = "mt-0"> آلیزی مک موهان <small class="text-muted float-right">4:05 صبح </small></h5>
+                                        <p>فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dropdown text-hide-lg d-inline-block">
+                            <a class="btn header-color-secondary btn-icon dropdown-toggle caret-none" href="#" role="button" id="dropdownnotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">notifications_none</i>
+                                <span class="status-dot pink-gradient"></span>
+                            </a>
+                            <div class="dropdown-menu notification-dropdown" aria-labelledby="dropdownnotification">
+                                <a href="#" class="media  pink-gradient-active new">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user1.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class="mt-0"> عنوان رسانه</h5>
+                                        <p>فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="media  pink-gradient-active">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user1.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class="mt-0"> عنوان رسانه</h5>
+                                        <p>فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="media  pink-gradient-active">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user1.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class="mt-0"> عنوان رسانه</h5>
+                                        <p>فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dropdown d-inline-block">
+                            <a class="btn header-color-secondary dropdown-toggle username" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <figure class="userpic"><img src="img/user1.png" alt=""></figure>
+                                <h5 class="text-hide-xs">
+                                    <small class="header-color-secondary"> خوش آمدید ، </small>
+                                    <span class="header-color-primary"> جان مک ماهون </span>
+                                </h5>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right profile-dropdown" aria-labelledby="dropdownMenuLink">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <a href="profile.html">
+                                            <figure class="avatar avatar-120 mx-auto my-3">
+                                                <img src="img/user1.png" alt="">
+                                            </figure>
+                                            <h5 class="card-title mb-2 header-color-primary"> جان مک ماهون </h5>
+                                            <h6 class="card-subtitle mb-3 header-color-secondary"> آفریقای جنوبی </h6>
+                                        </a>
+                                        <p class="card-text">چند متن سریع به عنوان عنوان کارت ایجاد شده و قسمت عمده محتوای کارت را تشکیل می دهد.</p>
+                                        <button class="btn btn-sm pink-gradient border-0 mb-3 "> ویرایش</button>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item pink-gradient-active" href="javascript:void(0);" id="open-right-sidebar">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                         تنظیمات </div>
+
+                                        <div class="col-auto">
+                                            <div class="header-color-secondary ml-2"><i class="material-icons vm">settings</i></div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item pink-gradient-active" href="javascript:void(0);">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            5458 <small class="header-color-secondary font-italic"> امتیازات جمع آوری شده </small>
+                                        </div>
+
+                                        <div class="col-auto">
+                                            <i class="header-color-secondary material-icons vm">local_play</i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item pink-gradient-active" href="signin1.html">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                           خروج از سیستم </div>
+
+                                        <div class="col-auto">
+                                            <div class="text-danger ml-2"><i class="material-icons vm">exit_to_app</i></div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main header ends -->
+
+        <!-- sidebar left -->
+        <div class="sidebar sidebar-left">
+            <div class="container has-background-img">
+                    <figure class="background-img pink-gradient">
+                        <img src="img/singer-690117_640.jpg" alt="" class="">
+                    </figure>
+                    <div class="media w-100 my-3">
+                        <figure class="avatar avatar-40 rounded-circle align-self-start ">
+                            <label class="checkbox-user-check">
+                                <input type="checkbox">
+                                <i class="material-icons">check</i>
+                            </label>
+                            <img src="img/user1.png" alt="Generic placeholder image">
+                        </figure>
+                        <div class="media-body mx-70">
+                            <h5 class="time-title mb-0 text-white">جان اسمیت </h5>
+                            <p class="mb-0 text-truncate text-white">johnsmith@example.com</p>
+                        </div>
+                    </div>
+                </div>
+           
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">insert_chart_outlined</i> <span> داشبورد </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> تولید </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ecommerce.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> تجارت الکترونیکی </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="networking.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> شبکه </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="finance.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> امورمالی </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="social.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> اجتماعی </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="todo.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> انجام </span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">filter_none</i> <span> صفحات برنامه </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="profile.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> پروفایل</span></a>
+                            <a href="mail.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> نامه</span></a>
+                            <a href="chat.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> چت</span></a>
+                            <a href="contactus1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> با ما تماس بگیرید </span></a>
+                            <a href="contactus2.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> تماس با ما 2 </span></a>
+                            <a href="team.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> تیم </span></a>
+                            <a href="about.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> درباره </span></a>
+                            <a href="blog.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> وبلاگ</span></a>
+                            <a href="blog-details.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i><span> جزئیات وبلاگ </span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">shopping_cart</i> <span> تجارت الکترونیکی </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="product-blocks.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> محصولات</span></a>
+                            <a href="product-details.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> جزئیات محصول</span></a>
+                            <a href="cart.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i><span> سبد خرید</span></a>
+                            <a href="payment-info.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> پرداخت / اطلاعات</span></a>
+                            <a href="invoice.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> فاکتور</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">assignment</i> <span> صفحات دیگر </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="signin1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> وارد سیستم شوید </span></a>
+                            <a href="signin2.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> ورود به سیستم 2</span></a>
+                            <a href="signup1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> ثبت نام کنید </span></a>
+                            <a href="signup2.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> ثبت نام کنید 2 </span></a>
+                            <a href="error1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> خطا </span></a>
+                            <a href="error-4041.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>404</span></a>
+                            <a href="error-4042.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>404 2</span></a>
+                            <a href="error-5001.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>500</span></a>
+                            <a href="error-5002.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>500 2</span></a>
+                            <a href="comming-soon1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> به زودی</span></a>
+                            <a href="comming-soon2.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> به زودی 2</span></a>
+                            <a href="faqs1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> سوالات متداول</span></a>
+                            <a href="faqs2.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> سوالات متداول 2</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">equalizer</i> <span> نمودارها و نقشه</span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="chartjs.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> نمودار js </span></a>
+                            <a href="sparklines.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> خطوط جرقه ای</span></a>
+                            <a href="vectormap-blocks.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <<span> نقشه jVector</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">devices</i> <span> چیدمان ها </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="boxed-layout.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> طرح بندی جعبه ای </span></a>
+                            <a href="full-width.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> تمام عرض </span></a>
+                            <a href="colors.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> طرح رنگی</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">insert_emoticon</i> <span> نمادها </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="material-icons.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>نمادهای متریال</span></a>
+                            <a href="icon-style.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>سبک آیکون ها</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">business_center</i> <span> کنترل ها </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="card-blocks.html" class="nav-link  pink-gradient-active"><i class="material-icons icon"></i> <span> بلوک کارت </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="carousel-blocks.html"><i class="material-icons icon"></i> <span> بلوک های چرخ فلک </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="chart-blocks.html"><i class="material-icons icon"></i> <span> بلوک نمودارها </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="chat-blocks.html"><i class="material-icons icon"></i> <span> بلوک های چت </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="event-blocks.html"><i class="material-icons icon"></i> <span> بلوک های رویداد </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="large-dropdown.html"><i class="material-icons icon"></i> <span> کرکره های بزرگ </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="file-blocks.html"><i class="material-icons icon"></i> <span> پرونده بلوک </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="media-blocks.html"><i class="material-icons icon"></i> <span> بلوک های رسانه ای</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="navbar-blocks.html"><i class="material-icons icon"></i> <span> بلوک نوار</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="news-blocks.html"><i class="material-icons icon"></i> <span> بلوک های خبری</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="pricing-blocks.html"><i class="material-icons icon"></i> <span> بلوک های قیمت گذاریی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="product-blocks.html"><i class="material-icons icon"></i> <span> بلوک های محصول </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="progress-range-blocks.html"><i class="material-icons icon"></i> <span> پیشرفت و دامنه </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="rating-blocks.html"><i class="material-icons icon"></i> <span> بلوک های رتبه بندی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="summary-blocks.html"><i class="material-icons icon"></i> <span> بلوک های خلاصه</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="timeline-blocks.html"><i class="material-icons icon"></i> <span>بلوک های جدول زمانی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="user-blocks.html"><i class="material-icons icon"></i> <span>بلوک های کاربر</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="userlist-blocks.html"><i class="material-icons icon"></i> <span>لیست های کاربر مسدود می شود</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="wizard-blocks.html"><i class="material-icons icon"></i> <span>بلوک های جادوگر</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="alerts.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> هشدارها </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="badges.html"><i class="material-icons icon"></i> <span> نشان ها </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="breadcrumb.html"><i class="material-icons icon"></i> <span> خرده نان </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="buttons.html"><i class="material-icons icon"></i> <span> دکمه ها </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="button-group.html"><i class="material-icons icon"></i> <span> گروه دکمه ها </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="dropdown.html"><i class="material-icons icon"></i> <span> کرکره ای </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form-elements.html"><i class="material-icons icon"></i> <span> عناصر فرم </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="collapse.html"><i class="material-icons icon"></i> <span> سقوط  </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="input-group.html"><i class="material-icons icon"></i> <span> گروه ورودی  </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="جومبوترون.html"><i class="material-icons icon"></i> <span> جومبوترون </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="pagination.html"><i class="material-icons icon"></i> <span> صفحه بندی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="popover.html"><i class="material-icons icon"></i> <span> پوپاور</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="tooltip.html"><i class="material-icons icon"></i> <span> راهنمایی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="modal.html"><i class="material-icons icon"></i> <span> مودال</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">web</i> <span> کنترل های غنی</span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link  pink-gradient-active" href="multiselect.html"><i class="material-icons icon"></i> <span> چند انتخاب کنید</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="picker.html"><i class="material-icons icon"></i> <span> جمع کننده</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="autocomplete.html"><i class="material-icons icon"></i> <span> تکمیل خودکار</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="contextmenu.html"><i class="material-icons icon"></i> <<span>منوی زمینه</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="editor.html"><i class="material-icons icon"></i> <span>ویرایشگر</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="toast-message.html"><i class="material-icons icon"></i> <span>پیام نان تست</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="dragable_sortable.html"><i class="material-icons icon"></i> <span>قابل مرتب سازی </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="tourintro.html"><i class="material-icons icon"></i><span>معرفی تور </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="dropzone.html"><i class="material-icons icon"></i> <span>قطره </span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">description</i> <span>فرم ها</span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="form_credit_card.html" class="nav-link  pink-gradient-active"><i class="material-icons icon"></i> <span>کارت اعتباری</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_donation.html"><i class="material-icons icon"></i><span>فرم اهدا</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_authorization.html"><i class="material-icons icon"></i> <span>فرم اقتدار</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_employee_review.html"><i class="material-icons icon"></i> <span>بررسی کارمندان</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_profile_info.html"><i class="material-icons icon"></i> <span> پروفایل</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_survay_review.html"><i class="material-icons icon"></i> <span>فرم نظر سنجی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_booking.html"><i class="material-icons icon"></i> <span>فرم رزرو</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">grid_on</i> <span>جدول ها</span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="datatable.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>جدول داده</span></a>
+                            <a href="footable.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>جدول foo</span></a>
+                            <a href="table-blocks.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>جدول </span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">domain</i> <span>مرحله 1</span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>مرحله 2</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>مرحله 2</span></a>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>مرحله 3</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="backdrop"></div>   
+        <!-- sidebar left ends -->
+
+        <!-- sidebar right -->
+        <div class="sidebar sidebar-right">
+            <button type="button" class="btn close-sidebar"><i class="material-icons">settings</i></button>
+            <div class="row mx-0 pt-2">
+                <div class="col-12">
+                    <p class="sidebar-color-primary page-sub-title-small">
+                        <span class="icon-circle mr-2">
+                            <i class="material-icons">settings</i>
+                        </span>تنظیم سبک بصری </p>
+                    <p class="sidebar-color-secondary">ما طیف گسترده ای از طرح رنگ را برای تغییر از ارائه می دهیم</p>
+                    <div class="row">
+                        <ul class="list-group border-top border-bottom list-group-flush w-100">
+                            <li class="list-group-item">
+                                <span class="vm">طرح بندی جعبه ای </span>
+                                <input type="checkbox" id="boxlayout" class="switch switch-sm">
+                                <label for="boxlayout" class="pink-gradient float-right"></label>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="vm">کانتینر کامل </span>
+                                <input type="checkbox" id="full-width2" class="switch switch-sm">
+                                <label for="full-width2" class="pink-gradient float-right"></label>
+                                <p class="sidebar-color-secondary mt-2 mb-0"><small> عرض صفحه در صفحه بزرگ کاملاً گسترده است</small></p>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="vm">LTR</span>
+                                <input type="checkbox" id="rtl" class="switch switch-sm">
+                                <label for="rtl" class="pink-gradient float-right"></label>
+                            </li>
+                            <li class="list-group-item">
+                                <span class = "vm"> نوار کناری نماد </span>
+                                <input type="checkbox" id="iconsibarbar" class="switch switch-sm">
+                                <label for="iconsibarbar" class="pink-gradient float-right"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="sidebar-color-primary page-sub-title-small mt-2"><span class="icon-circle mr-2"><i class="material-icons">palette</i></span>رنگ را انتخاب کنید</p>
+                    <div class="row">
+                        <ul class="list-group list-group-flush w-100">
+                            <li class="list-group-item">
+                                <div class="theme-color">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label bg-white" for="customRadio1" data-title="style"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-blue" for="customRadio2" data-title="dark-blue"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio3" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-purple" for="customRadio3" data-title="dark-purple"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio4" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-maroon" for="customRadio4" data-title="dark-maroon"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio5" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-grey" for="customRadio5" data-title="dark-grey"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio6" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-pink" for="customRadio6" data-title="dark-pink"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio7" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-brown" for="customRadio7" data-title="dark-brown"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio8" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-green" for="customRadio8" data-title="dark-green"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label red" for="customRadio1mat" data-title="red"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2mat" name="style-sheet-color" class="custom-control-input" checked>
+                                        <label class="custom-control-label purple" for="customRadio2mat" data-title="purple"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio4mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label blue" for="customRadio4mat" data-title="blue"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio6mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label skyblue" for="customRadio6mat" data-title="skyblue"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio5mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label teal" for="customRadio5mat" data-title="teal"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio7mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label orange" for="customRadio7mat" data-title="orange"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio3mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label brown" for="customRadio3mat" data-title="brown"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio8mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label grey" for="customRadio8mat" data-title="grey"></label>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <ul class="list-group border-top border-bottom list-group-flush w-100">
+                            <li class="list-group-item">
+                                <span class="vm">نوار کناری رنگی </span>
+                                <input type="checkbox" id="sidebarfill" class="switch switch-sm" checked>
+                                <label for="sidebarfill" class="pink-gradient float-right"></label>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="vm">هدر رنگی </span>
+                                <input type="checkbox" id="headerfill" class="switch switch-sm">
+                                <label for="headerfill" class="pink-gradient float-right"></label>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="vm">کاملاً رنگی </span>
+                                <input type="checkbox" id="fullcolorfill" class="switch switch-sm">
+                                <label for="fullcolorfill" class="pink-gradient float-right"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="sidebar-color-primary page-sub-title-small mt-2"><span class="icon-circle mr-2"><i class="material-icons">photo_library</i></span> تصویر پس زمینه </p>
+                    <div class="row">
+                        <ul class="list-group list-group-flush w-100">
+                            <li class="list-group-item">
+                                <div class="sidebar-image">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio12img" name="background-image-sidebar" class="custom-control-input" checked="">
+                                        <label class="custom-control-label " for="customRadio12img" data-title="none"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio22img" name="background-image-sidebar" class="custom-control-input">
+                                        <label class="custom-control-label " for="customRadio22img" data-title="img/sidebar-1.png">
+                                            <img src="img/sidebar-11.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio32img" name="background-image-sidebar" class="custom-control-input">
+                                        <label class="custom-control-label " for="customRadio32img" data-title="img/sidebar-2.png">
+                                            <img src="img/sidebar-12.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio43img" name="background-image-sidebar" class="custom-control-input">
+                                        <label class="custom-control-label " for="customRadio43img" data-title="img/sidebar-3.png">
+                                            <img src="img/sidebar-13.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio52img" name="background-image-sidebar" class="custom-control-input">
+                                        <label class="custom-control-label " for="customRadio52img" data-title="img/sidebar-4.png">
+                                            <img src="img/sidebar-14.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio63img" name="background-image-sidebar" class="custom-control-input">
+                                        <label class="custom-control-label " for="customRadio63img" data-title="img/sidebar-5.png">
+                                            <img src="img/sidebar-15.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="sidebar-color-primary page-sub-title-small "><span class="icon-circle mr-2"><i class="material-icons">gradient</i></span> نوار کناری بافت </p>
+                    <div class="row">
+                        <ul class="list-group list-group-flush w-100 mb-4">
+                            <li class="list-group-item">
+                                <div class="sidebar-image">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio14img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio14img" data-title="none"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio24img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio24img" data-title="img/sidebar-texture1.png">
+                                            <img src="img/pattern-1.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio34img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio34img" data-title="img/sidebar-texture2.png">
+                                            <img src="img/pattern-2.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio44img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio44img" data-title="img/sidebar-texture3.png">
+                                            <img src="img/pattern-3.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio54img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio54img" data-title="img/sidebar-texture4.png">
+                                            <img src="img/pattern-4.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio64img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio64img" data-title="img/sidebar-texture5.png">
+                                            <img src="img/pattern-5.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sidebar right ends -->
+
+        <!-- setting sidebar -->
+        <div class="settings-sidebar close-settings-sidebar-backdrop">
+            <button type="button" class="btn close-setting-sidebar pink-gradient"><i class="material-icons">keyboard_arrow_left</i></button>
+            <ul class="nav nav-tabs row no-gutters pink-gradient" role="tablist">
+                <li class="nav-item text-center col">
+                    <a class="nav-link active" id="tabhome1settings-tab" data-toggle="tab" href="#tabhome1settings" role="tab" aria-controls="tabhome1settings" aria-selected="true">
+                        <h5 class="content-color-primary mb-0"><i class="material-icons">chat</i></h5>
+                        <p class="content-color-secondary mb-0 small"> چت </p>
+                    </a>
+                </li>
+                <li class="nav-item text-center col">
+                    <a class="nav-link" id="tabhome2settings-tab" data-toggle="tab" href="#tabhome2settings" role="tab" aria-controls="tabhome2settings" aria-selected="false">
+                        <h5 class="content-color-primary mb-0"><i class="material-icons">settings</i></h5>
+                        <p class="content-color-secondary mb-0 small"> تنظیمات </p>
+                    </a>
+                </li>
+                <li class="nav-item text-center col">
+                    <a class="nav-link" id="tabhome3settings-tab" data-toggle="tab" href="#tabhome3settings" role="tab" aria-controls="tabhome3settings" aria-selected="false">
+                        <h5 class="content-color-primary mb-0"><i class="material-icons">notifications</i></h5>
+                        <p class="content-color-secondary mb-0 small"> به روزرسانی ها </p>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tabhome1settings" role="tabpanel" aria-labelledby="tabhome1settings-tab">
+                    <ul class="list-group list-group-flush" id="chat-list">
+                        <li class="list-group-item new">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> جان دو<small class="float-right content-color-secondary"> 7:05 صبح</small></h6>
+                                    <p>سلام</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item new">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> آلیزا تاکور<small class="float-right content-color-secondary"> 8:05 صبح</small></h6>
+                                    <p>GoTRI از همه بهتر است</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item new">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> انکار توري<small class="float-right content-color-secondary"> 10:05 صبح</small></h6>
+                                    <p> حال شما چطور است؟ </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> جان دو<small class="float-right content-color-secondary"> 7:05 صبح</small></h6>
+                                    <p>سلام</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> آلیزا تاکور<small class="float-right content-color-secondary"> 8:05 صبح</small></h6>
+                                    <p>GoTRI از همه بهتر است</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> انکار توري<small class="float-right content-color-secondary"> 10:05 صبح</small></h6>
+                                    <p> حال شما چطور است؟ </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> جان دو<small class="float-right content-color-secondary"> 7:05 صبح</small></h6>
+                                    <p>سلام</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> آلیزا تاکور<small class="float-right content-color-secondary"> 8:05 صبح</small></h6>
+                                    <p>GoTRI از همه بهتر است</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> انکار توري<small class="float-right content-color-secondary"> 10:05 صبح</small></h6>
+                                    <p> حال شما چطور است؟ </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> جان دو<small class="float-right content-color-secondary"> 7:05 صبح</small></h6>
+                                    <p>سلام</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> آلیزا تاکور<small class="float-right content-color-secondary"> 8:05 صبح</small></h6>
+                                    <p>GoTRI از همه بهتر است</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> انکار توري<small class="float-right content-color-secondary"> 10:05 صبح</small></h6>
+                                    <p> حال شما چطور است؟ </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> جان دو<small class="float-right content-color-secondary"> 7:05 صبح</small></h6>
+                                    <p>سلام</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> آلیزا تاکور<small class="float-right content-color-secondary"> 8:05 صبح</small></h6>
+                                    <p>GoTRI از همه بهتر است</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> انکار توري<small class="float-right content-color-secondary"> 10:05 صبح</small></h6>
+                                    <p> حال شما چطور است؟ </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="tabhome2settings" role="tabpanel" aria-labelledby="tabhome2settings-tab">
+                    <div class="row mx-0">
+                        <div class="col-12">
+                            <div class="alert alert-success alert-dismissible  mt-2 p-2" role="alert" id="settingalert">
+                                <strong> تبریک!</strong>
+                                <br>تنظیمات شما منعکس شده است.
+                                <button type="button" class="close btn-sm" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mx-0 mt-2">
+                        <div class="col-12">
+                            <p class="page-sub-title-small">
+                                <span class="icon-circle mr-2">
+                                     <i class="material-icons">settings</i>
+                                 </span>تنظیمات برنامه</p>
+                        </div>
+                    </div>
+                    <ul class="list-group  list-group-flush w-100">
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2">پنهان کردن پس زمینه</label>
+                            <input type="checkbox" id="hidebackdrop" class="switch switch-sm">
+                            <label for="hidebackdrop" class="pink-gradient float-right"></label>
+                        </li>                      
+                    </ul>
+                    <div class="row mx-0 mt-2">
+                        <div class="col-12">
+                            <p class="page-sub-title-small">
+                                <span class="icon-circle mr-2">
+                                     <i class="material-icons">mail</i>
+                                 </span>تنظیمات ایمیل</p>
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush w-100">
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2">دریافت به روز رسانی ها</label>
+                            <input type="checkbox" id="dead1" class="switch switch-sm" checked>
+                            <label for="dead1" class="pink-gradient float-right"></label>
+                        </li>
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2">دریافت اعلان</label>
+                            <input type="checkbox" id="dead2" class="switch switch-sm" checked>
+                            <label for="dead2" class="pink-gradient float-right"></label>
+                        </li>
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2">هشدارها را دریافت کنید</label>
+                            <input type="checkbox" id="dead3" class="switch switch-sm">
+                            <label for="dead3" class="pink-gradient float-right"></label>
+                        </li>
+                    </ul>
+                    <div class="row mx-0 mt-2">
+                        <div class="col-12">
+                            <p class="page-sub-title-small">
+                                <span class="icon-circle mr-2">
+                                     <i class="material-icons">person</i>
+                                 </span>تنظیمات کاربر</p>
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush w-100">
+                        <li class="list-group-item">
+
+                            <label class="d-inline-block mr-2">لیست اتصال</label>
+                            <input type="checkbox" id="dead11" class="switch switch-sm">
+                            <label for="dead11" class="pink-gradient float-right"></label>
+                            <hr class="mt-2">
+                            <p class="content-color-secondary small mb-2">اگر این تنظیم را مجاز کنید ، دوستان یا ارتباط شما می توانند لیست اتصال شما را ببینند.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2"> نظرات </label>
+                            <input type="checkbox" id="dead21" class="switch switch-sm" checked>
+                            <label for="dead21" class="pink-gradient float-right"></label>
+                            <hr class="mt-2">
+                            <p class="content-color-secondary small mb-2">در صورت اجازه این تنظیم ، دوستان یا ارتباطات شما می توانند در مورد نمایه و پستی که پست کرده اید یا به اشتراک گذاشته اید نظر دهند.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2">به اشتراک بگذارید </label>
+                            <input type="checkbox" id="dead31" class="switch switch-sm" checked>
+                            <label for="dead31" class="pink-gradient float-right"></label>
+                            <hr class="mt-2">
+                            <p class="content-color-secondary small mb-2">دوستان یا ارتباط شما فقط در صورت مجاز بودن این تنظیم می توانند پست شما را که ارسال کرده اید و توسط شما نوشته شده است به اشتراک بگذارند.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade " id="tabhome3settings" role="tabpanel" aria-labelledby="tabhome3settings-tab">
+                    <div class="row mx-0 mt-0 bg-light">
+                        <div class="col-12">
+                            <div class="card my-3">
+                                <div class="card-body">
+                                    <div class="media">
+                                        <div class="icon-circle icon-50 bg-light-primary mr-3">
+                                            <i class="material-icons">track_changes</i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="content-color-primary mb-0">شغل خوب! </h4>
+                                            <p class="content-color-secondary mb-3">سیستم کاملاً در حال اجرا است. </p>
+                                        </div>
+                                    </div>
+                                    <div class="progress progress-small">
+                                        <div class="progress-bar bg-primary col-6" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="page-sub-title-small">
+                                <span class="icon-circle mr-2">
+                                    <i class="material-icons">av_timer</i>
+                                 </span>تنظیمات برنامه
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush w-100 log-information mt-2">
+                        <li class="list-group-item">
+                            <div class="avatar avatar-15 border-danger"></div>
+                            <p class="content-color-primary">سیستم به روز شد
+                                <br><small class="content-color-secondary">2:02 صبح </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-warning"></span>
+                            <p class="content-color-primary">حساب جدید ایجاد شد
+                                <br><small class="content-color-secondary">5:02 بعدازظهر </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-success"></span>
+                            <p class="content-color-primary">خاموش شدن 2 ساعت
+                                <br><small class="content-color-secondary">دیروز | 2:02 بعد از ظهر</small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-primary"></span>
+                            <p class="content-color-primary">سیستم به روز شد
+                                <br><small class="content-color-secondary">دیروز | 1:32 بعد از ظهر</small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-dark"></span>
+                            <p class="content-color-primary">تغییرات icro انجام شد!
+                                <br><small class="content-color-secondary">14 تیر 1397  | 2:02 صبح </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-secondary"></span>
+                            <p class="content-color-primary">تغییرات icro انجام شد!
+                                <br><small class="content-color-secondary">14 تیر 1397  | 2:02 صبح </small></p>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="row mx-0 mt-2 bg-light">
+                        <div class="col-12">
+                            <p class="page-sub-title-small">
+                                <span class="icon-circle mr-2">
+                                     <i class="material-icons">av_timer</i>
+                                 </span>تنظیمات برنامه</p>
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush w-100 log-information bubble-sheet mt-2">
+                        <li class="list-group-item">
+                            <div class="avatar avatar-15 border-danger"></div>
+                            <p class="content-color-primary">سیستم به روز شد
+                                <br><small class="content-color-secondary">2:02 صبح </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-warning"></span>
+                            <p class="content-color-primary">حساب جدید ایجاد شد
+                                <br><small class="content-color-secondary">5:02 بعدازظهر </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-success"></span>
+                            <p class="content-color-primary">خاموش شدن 2 ساعت
+                                <br><small class="content-color-secondary">دیروز | 2:02 بعد از ظهر</small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-primary"></span>
+                            <p class="content-color-primary">سیستم به روز شد
+                                <br><small class="content-color-secondary">دیروز | 1:32 بعد از ظهر</small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-dark"></span>
+                            <p class="content-color-primary">تغییرات icro انجام شد!
+                                <br><small class="content-color-secondary">14 تیر 1397  | 2:02 صبح </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-secondary"></span>
+                            <p class="content-color-primary">تغییرات icro انجام شد!
+                                <br><small class="content-color-secondary">14 تیر 1397  | 2:02 صبح </small></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="settings-sidebar-backdrop pink-gradient"></div>
+        <div class="chat-window">
+            <div class="card">
+                <div class="card-header pink-gradient p-2">
+                    <div class="media">
+                        <figure class="avatar avatar-20 mr-2">
+                            <img src="img/user1.png" alt="Generic placeholder image">
+                        </figure>
+                        <div class="media-body">
+                            <h6 class="text-white mb-0"> جان مک ماهون <span class="status vm bg-success"></span></h6>
+                        </div>
+                        <button class="btn btn-link p-0 chat-minmax vm"><i class="material-icons minimizeicon">remove</i><i class="material-icons fullscreenicon">fullscreen</i></button>
+                        <button class="btn btn-link p-0 chat-close vm"><i class="material-icons closeicon">close</i></button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group chatlist">
+                        <li class="list-group-item ">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-2">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    فردا هویج نبیه در غیر باردار است.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item chat-you">
+                            <div class="media">
+                                <div class="media-body">
+                                    فردا هویج نبیه در غیر باردار است.
+                                </div>
+                                <figure class="avatar avatar-40 ml-2">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                            </div>
+                        </li>
+                        <li class="list-divider">20 شهریور 1397</li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <div class="media-body">
+                                    فردا هویج نبیه در غیر باردار است.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item chat-you">
+                            <div class="media">
+                                <div class="media-body">
+                                    فردا هویج نبیه در غیر باردار است.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <div class="media-body">
+                                    فردا هویج نبیه در غیر باردار است.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <div class="input-group input-group-sm">
+                        <div class="input-group-prepend">
+                            <button class="input-group-text px-1 rounded-0">
+                                <i class="material-icons">mood</i>
+                            </button>
+                        </div>
+                        <input type="text" class="form-control" placeholder = "پیام را وارد کنید ...">
+                        <div class="input-group-prepend">
+                            <button class="input-group-text px-1">
+                                <i class="material-icons">attach_file</i>
+                            </button>
+                        </div>
+                        <div class="input-group-prepend">
+                            <button class="input-group-text px-1">
+                                <i class="material-icons">send</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- setting sidebar ends -->
+
+        <!-- content page title -->
+        <div class="container-fluid bg-light-opac">
+            <div class="row">
+                <div class="container my-3 main-container">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h2 class="content-color-primary page-title">نمادهای متریال</h2>
+                            <p class="content-color-secondary page-sub-title">نمادها / شمایل های زیبا </p>
+                        </div>
+                        <div class="col-auto">
+                            <button class="btn btn-rounded pink-gradient text-uppercase"><i class="material-icons">add</i> <span class = "text-hide-xs"> ایجاد </span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content page title ends -->
+
+        <!-- content page -->
+        <div class="container mt-4 main-container">
+            <p class="">نمادهای متریال نمادهایی دلپذیر و زیبا ساخته شده برای اقدامات و موارد متداول هستند.<a href="https://material.io/tools/icons/?style=baseline">نمادهای بیشتر</a>.</p>
+            <div class="row text-center">
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">date_range</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">accessible</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">explore</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">account_balance</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">account_box</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">account_circle</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">check_circle</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">alarm_add</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">assignment_returned</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">favorite</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">bug_report</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons">fingerprint</i></div>
+            </div>
+            <p class="content-color-primary page-sub-title-small mt-2">نماد کوچک</p>
+            <br>
+            <div class="row text-center">
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">date_range</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">accessible</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">explore</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">account_balance</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">account_box</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">account_circle</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">check_circle</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">alarm_add</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">assignment_returned</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">favorite</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">bug_report</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-sm">fingerprint</i></div>
+            </div>
+            <p class="content-color-primary page-sub-title-small mt-2">نماد بزرگ</p>
+            <br>
+            <div class="row text-center">
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">date_range</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">accessible</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">explore</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">account_balance</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">account_box</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">account_circle</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">check_circle</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">alarm_add</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">assignment_returned</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">favorite</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">bug_report</i></div>
+                <div class="col-3 col-sm-2 col-xl-1 mb-3"><i class="material-icons icon-lg">fingerprint</i></div>
+            </div>
+        </div>
+        <!-- content page ends -->
+
+    </div>
+    <footer class="border-top">
+        <div class="row">
+            <div class="col-12 col-sm-6" style="font-size:12px!important">بومی سازی شده توسط <a href="https://damandarya.ir/" target="_blank">دامن دریا</a> و خانم باغبانزاده</div>
+            <div class="col-12 col-sm-6 text-right"><a href="" class="content-color-secondary">سیاست حفظ حریم خصوصی</a> | <a href="" class="content-color-secondary">شرایط استفاده</a></div>
+        </div>
+    </footer>
+
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Cookie jquery file -->
+    <script src="vendor/cookie/jquery.cookie.js"></script>
+
+    <!-- sparklines chart jquery file -->
+    <script src="vendor/sparklines/jquery.sparkline.min.js"></script>
+
+    <!-- Circular progress gauge jquery file -->
+    <script src="vendor/circle-progress/circle-progress.min.js"></script>
+
+    <!-- Swiper carousel jquery file -->
+    <script src="vendor/swiper/js/swiper.min.js"></script>
+
+    <!-- Chart js jquery file -->
+    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="vendor/chartjs/utils.js"></script>
+
+    <!-- Footable jquery file -->
+    <script src="vendor/footable-bootstrap/js/footable.min.js"></script>
+
+    <!-- datepicker jquery file -->
+    <script src="vendor/bootstrap-daterangepicker-master/moment.js"></script>
+    <script src="vendor/bootstrap-daterangepicker-master/daterangepicker.js"></script>
+
+    <!-- نقشه بردار jquery file -->
+    <script src="vendor/jquery-jvectormap/jquery-jvectormap.js"></script>
+    <script src="vendor/jquery-jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+
+    <!-- circular progress file -->
+    <script src="vendor/circle-progress/circle-progress.min.js"></script>
+
+    <!-- Application main common jquery file -->
+    <script src="js/main.js"></script>
+
+    <!-- page specific script -->
+</body>
+
+</html>

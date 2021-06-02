@@ -1,0 +1,2815 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
+
+    <!-- favicons -->
+    <link rel="apple-touch-icon" href="img/favicon-apple.png">
+    <link rel="icon" href="img/favicon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/persian-datepicker@1.2.0/dist/css/persian-datepicker.min.css">
+    <link rel="stylesheet" href="vendor/bootstrap-4.1.3/css/bootstrap.min.css">
+
+    <!-- Material design icons CSS -->
+    <link rel="stylesheet" href="vendor/materializeicon/material-icons.css">
+
+    <!-- aniamte CSS -->
+    <link rel="stylesheet" href="vendor/animatecss/animate.css">
+
+    <!-- swiper carousel CSS -->
+    <link rel="stylesheet" href="vendor/swiper/css/swiper.min.css">
+
+    <!-- daterange CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap-daterangepicker-master/daterangepicker.css">
+
+    <!-- footable CSS -->
+    <link rel="stylesheet" href="vendor/footable-bootstrap/css/footable.bootstrap.min.css">
+
+    <!-- Bootstra tour CSS -->
+    <link rel="stylesheet" href="vendor/bootstrap_tour/css/bootstrap-tour-standalone.css">
+
+
+    <!-- نقشه بردار CSS -->
+    <link rel="stylesheet" href="vendor/jquery-jvectormap/jquery-jvectormap-2.0.3.css">
+
+    <!-- app CSS -->
+    <link id="theme" rel="stylesheet" href="css/purplesidebar.css" type="text/css">
+
+    <title>GoTRI  - Mobile</title>
+</head>
+
+<body style="text-align: right;direction: rtl"class="fixed-header sidebar-right-close sidebar-left-close">
+     <!-- page loader -->
+    <div class="loader justify-content-center pink-gradient">
+        <div class="align-self-center text-center">
+            <div class="logo-img-loader">
+                <img src="img/loader-hole.png" alt="" class="logo-image">
+                <img src="img/loader-bg.png" alt="" class="logo-bg-image">
+            </div>
+            <h2 class="mt-3 font-weight-light">گوتری<br><small>- موبایل -</small></h2>
+            <p class="mt-2 text-white">همه چیز عالی آماده می شود ...</p>
+        </div>
+    </div>
+    <!-- page loader ends  -->
+
+    <div class="wrapper">
+        <!-- main header -->
+        <header class="main-header">
+            <div class="container-fluid">
+                <div class="row align-items-center">
+                    <div class="col-auto px-0">
+                        <button class="btn pink-gradient btn-icon" id="left-menu"><i class="material-icons">widgets</i></button>
+                        <a href="index.html" class="logo"><img src="img/logo-icon.png" alt=""><span class="text-hide-xs"><b>گو</b>تری<br><span class="small">- موبایل -</span></span>
+                        </a>
+                        <form class="search-header">
+                            <div class="input-group">
+                                <input type="text" class="form-control" placeholder = "جستجو ...">
+                                <div class="input-group-append">
+                                    <button class="btn " type="button"><i class="material-icons">search</i></button>
+                                </div>
+                            </div>
+
+                        </form>
+                    </div>
+
+                    <div class="col px-0 text-right">
+                        <button class="btn btn-search btn-icon header-color-secondary" type="button"><i class="material-icons">search</i></button>
+
+                        <div class="dropdown d-inline-block text-hide-xs">
+                            <a class="btn header-color-secondary btn-icon dropdown-toggle caret-none" href="#" role="button" id="dropdownmessage2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <figure class="avatar avatar-24 vm d-inline-block border"><img src="img/india.png" alt=""></figure>
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="dropdownmessage2">
+                                <div class="dropdown-item">
+                                    <figure class="avatar avatar-24 mr-2 vm d-inline-block"><img src="img/india.png" alt=""></figure> ایران
+                                </div>
+                                <div class="dropdown-item">
+                                    <figure class="avatar avatar-24 mr-2 vm d-inline-block"><img src="img/canada.png" alt=""></figure> کانادا
+                                </div>
+                                <div class="dropdown-item">
+                                    <figure class="avatar avatar-24 mr-2 vm d-inline-block"><img src="img/unitedstates.png" alt=""></figure> آمریکا
+                                </div>
+                                <div class="dropdown-item">
+                                    <figure class="avatar avatar-24 mr-2 vm d-inline-block"><img src="img/uk.png" alt=""></figure> انگلستان
+                                </div>
+                                <div class="dropdown-item">
+                                    <figure class="avatar avatar-24 mr-2 vm d-inline-block"><img src="img/china.png" alt=""></figure> چین
+                                </div>
+                            </div>
+                        </div>
+                        <div class="dropdown d-inline-block">
+                            <a class="btn header-color-secondary btn-icon dropdown-toggle caret-none" href="#" role="button" id="dropdownmessage" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">mail_outline</i>
+                                <span class="status-number bg-danger text-white">9+</span>
+                            </a>
+                            <div class="dropdown-menu notification-dropdown align-center arrow-top pt-0" aria-labelledby="dropdownmessage">
+                                <div class="arrow pink-gradient"></div>
+                                <div class="pink-gradient py-3 text-center">
+                                    <h5 class="mb-0">پیام ها </h5>
+                                    <p class="mb-0">فقط پیام های دریافتی </p>
+                                </div>
+                                <div class="media new">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user2.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class="mt-0">آلیزی جانسون </h5>
+                                        <p class="mb-2">فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                        <a href=""> پاسخ دهید </a>
+                                        <a href="" class = "ml-2"> مشاهده </a>
+                                    </div>
+                                </div>
+                                <a href="#" class="media pink-gradient-active new">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user3.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class="my-0">دونالد کوستاپور </h5>
+                                        <small class="text-muted d-block mb-2">2:05 صبح</small>
+                                        <p>فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="media pink-gradient-active">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user2.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class = "mt-0"> آلیزی مک موهان <small class="text-muted float-right">4:05 صبح </small></h5>
+                                        <p>فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dropdown text-hide-lg d-inline-block">
+                            <a class="btn header-color-secondary btn-icon dropdown-toggle caret-none" href="#" role="button" id="dropdownnotification" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <i class="material-icons">notifications_none</i>
+                                <span class="status-dot pink-gradient"></span>
+                            </a>
+                            <div class="dropdown-menu notification-dropdown" aria-labelledby="dropdownnotification">
+                                <a href="#" class="media  pink-gradient-active new">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user1.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class="mt-0"> عنوان رسانه</h5>
+                                        <p>فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="media  pink-gradient-active">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user1.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class="mt-0"> عنوان رسانه</h5>
+                                        <p>فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                    </div>
+                                </a>
+                                <a href="#" class="media  pink-gradient-active">
+                                    <figure class="avatar avatar-40">
+                                        <img src="img/user1.png" alt="Generic placeholder image">
+                                    </figure>
+                                    <div class="media-body">
+                                        <h5 class="mt-0"> عنوان رسانه</h5>
+                                        <p>فردا هویج نیبه در غیر باردار است. بدون شکلات یا فشار برای مراقبت.</p>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="dropdown d-inline-block">
+                            <a class="btn header-color-secondary dropdown-toggle username" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                <figure class="userpic"><img src="img/user1.png" alt=""></figure>
+                                <h5 class="text-hide-xs">
+                                    <small class="header-color-secondary"> خوش آمدید ، </small>
+                                    <span class="header-color-primary"> جان مک ماهون </span>
+                                </h5>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right profile-dropdown" aria-labelledby="dropdownMenuLink">
+                                <div class="card">
+                                    <div class="card-body text-center">
+                                        <a href="profile.html">
+                                            <figure class="avatar avatar-120 mx-auto my-3">
+                                                <img src="img/user1.png" alt="">
+                                            </figure>
+                                            <h5 class="card-title mb-2 header-color-primary"> جان مک ماهون </h5>
+                                            <h6 class="card-subtitle mb-3 header-color-secondary"> آفریقای جنوبی </h6>
+                                        </a>
+                                        <p class="card-text">چند متن سریع به عنوان عنوان کارت ایجاد شده و قسمت عمده محتوای کارت را تشکیل می دهد.</p>
+                                        <button class="btn btn-sm pink-gradient border-0 mb-3 "> ویرایش</button>
+                                    </div>
+                                </div>
+                                <a class="dropdown-item pink-gradient-active" href="javascript:void(0);" id="open-right-sidebar">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                         تنظیمات </div>
+
+                                        <div class="col-auto">
+                                            <div class="header-color-secondary ml-2"><i class="material-icons vm">settings</i></div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item pink-gradient-active" href="javascript:void(0);">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                            5458 <small class="header-color-secondary font-italic"> امتیازات جمع آوری شده </small>
+                                        </div>
+
+                                        <div class="col-auto">
+                                            <i class="header-color-secondary material-icons vm">local_play</i>
+                                        </div>
+                                    </div>
+                                </a>
+                                <div class="dropdown-divider m-0"></div>
+                                <a class="dropdown-item pink-gradient-active" href="signin1.html">
+                                    <div class="row align-items-center">
+                                        <div class="col">
+                                           خروج از سیستم </div>
+
+                                        <div class="col-auto">
+                                            <div class="text-danger ml-2"><i class="material-icons vm">exit_to_app</i></div>
+                                        </div>
+                                    </div>
+                                </a>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- main header ends -->
+
+        <!-- sidebar left -->
+        <div class="sidebar sidebar-left">
+            <div class="container has-background-img">
+                    <figure class="background-img pink-gradient">
+                        <img src="img/singer-690117_640.jpg" alt="" class="">
+                    </figure>
+                    <div class="media w-100 my-3">
+                        <figure class="avatar avatar-40 rounded-circle align-self-start ">
+                            <label class="checkbox-user-check">
+                                <input type="checkbox">
+                                <i class="material-icons">check</i>
+                            </label>
+                            <img src="img/user1.png" alt="Generic placeholder image">
+                        </figure>
+                        <div class="media-body mx-70">
+                            <h5 class="time-title mb-0 text-white">جان اسمیت </h5>
+                            <p class="mb-0 text-truncate text-white">johnsmith@example.com</p>
+                        </div>
+                    </div>
+                </div>
+           
+            <ul class="nav flex-column">
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">insert_chart_outlined</i> <span> داشبورد </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> تولید </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="ecommerce.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> تجارت الکترونیکی </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="networking.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> شبکه </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="finance.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> امورمالی </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="social.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> اجتماعی </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="todo.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> انجام </span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">filter_none</i> <span> صفحات برنامه </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="profile.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> پروفایل</span></a>
+                            <a href="mail.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> نامه</span></a>
+                            <a href="chat.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> چت</span></a>
+                            <a href="contactus1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> با ما تماس بگیرید </span></a>
+                            <a href="contactus2.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> تماس با ما 2 </span></a>
+                            <a href="team.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> تیم </span></a>
+                            <a href="about.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> درباره </span></a>
+                            <a href="blog.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> وبلاگ</span></a>
+                            <a href="blog-details.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i><span> جزئیات وبلاگ </span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">shopping_cart</i> <span> تجارت الکترونیکی </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="product-blocks.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> محصولات</span></a>
+                            <a href="product-details.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> جزئیات محصول</span></a>
+                            <a href="cart.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i><span> سبد خرید</span></a>
+                            <a href="payment-info.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> پرداخت / اطلاعات</span></a>
+                            <a href="invoice.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> فاکتور</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">assignment</i> <span> صفحات دیگر </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="signin1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> وارد سیستم شوید </span></a>
+                            <a href="signin2.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> ورود به سیستم 2</span></a>
+                            <a href="signup1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> ثبت نام کنید </span></a>
+                            <a href="signup2.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> ثبت نام کنید 2 </span></a>
+                            <a href="error1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> خطا </span></a>
+                            <a href="error-4041.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>404</span></a>
+                            <a href="error-4042.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>404 2</span></a>
+                            <a href="error-5001.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>500</span></a>
+                            <a href="error-5002.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>500 2</span></a>
+                            <a href="comming-soon1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> به زودی</span></a>
+                            <a href="comming-soon2.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> به زودی 2</span></a>
+                            <a href="faqs1.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> سوالات متداول</span></a>
+                            <a href="faqs2.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> سوالات متداول 2</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">equalizer</i> <span> نمودارها و نقشه</span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="chartjs.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> نمودار js </span></a>
+                            <a href="sparklines.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> خطوط جرقه ای</span></a>
+                            <a href="vectormap-blocks.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <<span> نقشه jVector</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">devices</i> <span> چیدمان ها </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="boxed-layout.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> طرح بندی جعبه ای </span></a>
+                            <a href="full-width.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> تمام عرض </span></a>
+                            <a href="colors.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> طرح رنگی</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">insert_emoticon</i> <span> نمادها </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="material-icons.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>نمادهای متریال</span></a>
+                            <a href="icon-style.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>سبک آیکون ها</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">business_center</i> <span> کنترل ها </span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="card-blocks.html" class="nav-link  pink-gradient-active"><i class="material-icons icon"></i> <span> بلوک کارت </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="carousel-blocks.html"><i class="material-icons icon"></i> <span> بلوک های چرخ فلک </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="chart-blocks.html"><i class="material-icons icon"></i> <span> بلوک نمودارها </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="chat-blocks.html"><i class="material-icons icon"></i> <span> بلوک های چت </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="event-blocks.html"><i class="material-icons icon"></i> <span> بلوک های رویداد </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="large-dropdown.html"><i class="material-icons icon"></i> <span> کرکره های بزرگ </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="file-blocks.html"><i class="material-icons icon"></i> <span> پرونده بلوک </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="media-blocks.html"><i class="material-icons icon"></i> <span> بلوک های رسانه ای</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="navbar-blocks.html"><i class="material-icons icon"></i> <span> بلوک نوار</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="news-blocks.html"><i class="material-icons icon"></i> <span> بلوک های خبری</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="pricing-blocks.html"><i class="material-icons icon"></i> <span> بلوک های قیمت گذاریی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="product-blocks.html"><i class="material-icons icon"></i> <span> بلوک های محصول </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="progress-range-blocks.html"><i class="material-icons icon"></i> <span> پیشرفت و دامنه </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="rating-blocks.html"><i class="material-icons icon"></i> <span> بلوک های رتبه بندی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="summary-blocks.html"><i class="material-icons icon"></i> <span> بلوک های خلاصه</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="timeline-blocks.html"><i class="material-icons icon"></i> <span>بلوک های جدول زمانی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="user-blocks.html"><i class="material-icons icon"></i> <span>بلوک های کاربر</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="userlist-blocks.html"><i class="material-icons icon"></i> <span>لیست های کاربر مسدود می شود</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="wizard-blocks.html"><i class="material-icons icon"></i> <span>بلوک های جادوگر</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="alerts.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span> هشدارها </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="badges.html"><i class="material-icons icon"></i> <span> نشان ها </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="breadcrumb.html"><i class="material-icons icon"></i> <span> خرده نان </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="buttons.html"><i class="material-icons icon"></i> <span> دکمه ها </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="button-group.html"><i class="material-icons icon"></i> <span> گروه دکمه ها </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="dropdown.html"><i class="material-icons icon"></i> <span> کرکره ای </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form-elements.html"><i class="material-icons icon"></i> <span> عناصر فرم </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="collapse.html"><i class="material-icons icon"></i> <span> سقوط  </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="input-group.html"><i class="material-icons icon"></i> <span> گروه ورودی  </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="جومبوترون.html"><i class="material-icons icon"></i> <span> جومبوترون </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="pagination.html"><i class="material-icons icon"></i> <span> صفحه بندی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="popover.html"><i class="material-icons icon"></i> <span> پوپاور</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="tooltip.html"><i class="material-icons icon"></i> <span> راهنمایی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="modal.html"><i class="material-icons icon"></i> <span> مودال</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">web</i> <span> کنترل های غنی</span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link  pink-gradient-active" href="multiselect.html"><i class="material-icons icon"></i> <span> چند انتخاب کنید</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="picker.html"><i class="material-icons icon"></i> <span> جمع کننده</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="autocomplete.html"><i class="material-icons icon"></i> <span> تکمیل خودکار</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="contextmenu.html"><i class="material-icons icon"></i> <<span>منوی زمینه</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="editor.html"><i class="material-icons icon"></i> <span>ویرایشگر</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="toast-message.html"><i class="material-icons icon"></i> <span>پیام نان تست</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="dragable_sortable.html"><i class="material-icons icon"></i> <span>قابل مرتب سازی </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="tourintro.html"><i class="material-icons icon"></i><span>معرفی تور </span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="dropzone.html"><i class="material-icons icon"></i> <span>قطره </span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">description</i> <span>فرم ها</span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="form_credit_card.html" class="nav-link  pink-gradient-active"><i class="material-icons icon"></i> <span>کارت اعتباری</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_donation.html"><i class="material-icons icon"></i><span>فرم اهدا</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_authorization.html"><i class="material-icons icon"></i> <span>فرم اقتدار</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_employee_review.html"><i class="material-icons icon"></i> <span>بررسی کارمندان</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_profile_info.html"><i class="material-icons icon"></i> <span> پروفایل</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_survay_review.html"><i class="material-icons icon"></i> <span>فرم نظر سنجی</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link pink-gradient-active" href="form_booking.html"><i class="material-icons icon"></i> <span>فرم رزرو</span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">grid_on</i> <span>جدول ها</span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="datatable.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>جدول داده</span></a>
+                            <a href="footable.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>جدول foo</span></a>
+                            <a href="table-blocks.html" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>جدول </span></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="javascript:void(0);" class="nav-link dropdwown-toggle"><i class="material-icons icon">domain</i> <span>مرحله 1</span><i class="material-icons icon arrow">expand_more</i></a>
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>مرحله 2</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="javascript:void(0);" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>مرحله 2</span></a>
+                            <ul class="nav flex-column">
+                                <li class="nav-item">
+                                    <a href="javascript:void(0);" class="nav-link pink-gradient-active"><i class="material-icons icon"></i> <span>مرحله 3</span></a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="backdrop"></div>   
+        <!-- sidebar left ends -->
+
+        <!-- sidebar right -->
+        <div class="sidebar sidebar-right">
+            <button type="button" class="btn close-sidebar"><i class="material-icons">settings</i></button>
+            <div class="row mx-0 pt-2">
+                <div class="col-12">
+                    <p class="sidebar-color-primary page-sub-title-small">
+                        <span class="icon-circle mr-2">
+                            <i class="material-icons">settings</i>
+                        </span>تنظیم سبک بصری </p>
+                    <p class="sidebar-color-secondary">ما طیف گسترده ای از طرح رنگ را برای تغییر از ارائه می دهیم</p>
+                    <div class="row">
+                        <ul class="list-group border-top border-bottom list-group-flush w-100">
+                            <li class="list-group-item">
+                                <span class="vm">طرح بندی جعبه ای </span>
+                                <input type="checkbox" id="boxlayout" class="switch switch-sm">
+                                <label for="boxlayout" class="pink-gradient float-right"></label>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="vm">کانتینر کامل </span>
+                                <input type="checkbox" id="full-width2" class="switch switch-sm">
+                                <label for="full-width2" class="pink-gradient float-right"></label>
+                                <p class="sidebar-color-secondary mt-2 mb-0"><small> عرض صفحه در صفحه بزرگ کاملاً گسترده است</small></p>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="vm">LTR</span>
+                                <input type="checkbox" id="rtl" class="switch switch-sm">
+                                <label for="rtl" class="pink-gradient float-right"></label>
+                            </li>
+                            <li class="list-group-item">
+                                <span class = "vm"> نوار کناری نماد </span>
+                                <input type="checkbox" id="iconsibarbar" class="switch switch-sm">
+                                <label for="iconsibarbar" class="pink-gradient float-right"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="sidebar-color-primary page-sub-title-small mt-2"><span class="icon-circle mr-2"><i class="material-icons">palette</i></span>رنگ را انتخاب کنید</p>
+                    <div class="row">
+                        <ul class="list-group list-group-flush w-100">
+                            <li class="list-group-item">
+                                <div class="theme-color">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label bg-white" for="customRadio1" data-title="style"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-blue" for="customRadio2" data-title="dark-blue"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio3" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-purple" for="customRadio3" data-title="dark-purple"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio4" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-maroon" for="customRadio4" data-title="dark-maroon"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio5" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-grey" for="customRadio5" data-title="dark-grey"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio6" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-pink" for="customRadio6" data-title="dark-pink"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio7" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-brown" for="customRadio7" data-title="dark-brown"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio8" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label dark-green" for="customRadio8" data-title="dark-green"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio1mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label red" for="customRadio1mat" data-title="red"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio2mat" name="style-sheet-color" class="custom-control-input" checked>
+                                        <label class="custom-control-label purple" for="customRadio2mat" data-title="purple"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio4mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label blue" for="customRadio4mat" data-title="blue"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio6mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label skyblue" for="customRadio6mat" data-title="skyblue"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio5mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label teal" for="customRadio5mat" data-title="teal"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio7mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label orange" for="customRadio7mat" data-title="orange"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio3mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label brown" for="customRadio3mat" data-title="brown"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio8mat" name="style-sheet-color" class="custom-control-input">
+                                        <label class="custom-control-label grey" for="customRadio8mat" data-title="grey"></label>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="row">
+                        <ul class="list-group border-top border-bottom list-group-flush w-100">
+                            <li class="list-group-item">
+                                <span class="vm">نوار کناری رنگی </span>
+                                <input type="checkbox" id="sidebarfill" class="switch switch-sm" checked>
+                                <label for="sidebarfill" class="pink-gradient float-right"></label>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="vm">هدر رنگی </span>
+                                <input type="checkbox" id="headerfill" class="switch switch-sm">
+                                <label for="headerfill" class="pink-gradient float-right"></label>
+                            </li>
+                            <li class="list-group-item">
+                                <span class="vm">کاملاً رنگی </span>
+                                <input type="checkbox" id="fullcolorfill" class="switch switch-sm">
+                                <label for="fullcolorfill" class="pink-gradient float-right"></label>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="sidebar-color-primary page-sub-title-small mt-2"><span class="icon-circle mr-2"><i class="material-icons">photo_library</i></span> تصویر پس زمینه </p>
+                    <div class="row">
+                        <ul class="list-group list-group-flush w-100">
+                            <li class="list-group-item">
+                                <div class="sidebar-image">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio12img" name="background-image-sidebar" class="custom-control-input" checked="">
+                                        <label class="custom-control-label " for="customRadio12img" data-title="none"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio22img" name="background-image-sidebar" class="custom-control-input">
+                                        <label class="custom-control-label " for="customRadio22img" data-title="img/sidebar-1.png">
+                                            <img src="img/sidebar-11.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio32img" name="background-image-sidebar" class="custom-control-input">
+                                        <label class="custom-control-label " for="customRadio32img" data-title="img/sidebar-2.png">
+                                            <img src="img/sidebar-12.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio43img" name="background-image-sidebar" class="custom-control-input">
+                                        <label class="custom-control-label " for="customRadio43img" data-title="img/sidebar-3.png">
+                                            <img src="img/sidebar-13.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio52img" name="background-image-sidebar" class="custom-control-input">
+                                        <label class="custom-control-label " for="customRadio52img" data-title="img/sidebar-4.png">
+                                            <img src="img/sidebar-14.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio63img" name="background-image-sidebar" class="custom-control-input">
+                                        <label class="custom-control-label " for="customRadio63img" data-title="img/sidebar-5.png">
+                                            <img src="img/sidebar-15.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <p class="sidebar-color-primary page-sub-title-small "><span class="icon-circle mr-2"><i class="material-icons">gradient</i></span> نوار کناری بافت </p>
+                    <div class="row">
+                        <ul class="list-group list-group-flush w-100 mb-4">
+                            <li class="list-group-item">
+                                <div class="sidebar-image">
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio14img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio14img" data-title="none"></label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio24img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio24img" data-title="img/sidebar-texture1.png">
+                                            <img src="img/pattern-1.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio34img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio34img" data-title="img/sidebar-texture2.png">
+                                            <img src="img/pattern-2.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio44img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio44img" data-title="img/sidebar-texture3.png">
+                                            <img src="img/pattern-3.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio54img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio54img" data-title="img/sidebar-texture4.png">
+                                            <img src="img/pattern-4.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="custom-control custom-radio">
+                                        <input type="radio" id="customRadio64img" name="background-image-sidebar" class="custom-control-input bg-repeat">
+                                        <label class="custom-control-label " for="customRadio64img" data-title="img/sidebar-texture5.png">
+                                            <img src="img/pattern-5.png" alt="" class="w-100">
+                                        </label>
+                                    </div>
+                                    <div class="clearfix"></div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sidebar right ends -->
+
+        <!-- setting sidebar -->
+        <div class="settings-sidebar close-settings-sidebar-backdrop">
+            <button type="button" class="btn close-setting-sidebar pink-gradient"><i class="material-icons">keyboard_arrow_left</i></button>
+            <ul class="nav nav-tabs row no-gutters pink-gradient" role="tablist">
+                <li class="nav-item text-center col">
+                    <a class="nav-link active" id="tabhome1settings-tab" data-toggle="tab" href="#tabhome1settings" role="tab" aria-controls="tabhome1settings" aria-selected="true">
+                        <h5 class="content-color-primary mb-0"><i class="material-icons">chat</i></h5>
+                        <p class="content-color-secondary mb-0 small"> چت </p>
+                    </a>
+                </li>
+                <li class="nav-item text-center col">
+                    <a class="nav-link" id="tabhome2settings-tab" data-toggle="tab" href="#tabhome2settings" role="tab" aria-controls="tabhome2settings" aria-selected="false">
+                        <h5 class="content-color-primary mb-0"><i class="material-icons">settings</i></h5>
+                        <p class="content-color-secondary mb-0 small"> تنظیمات </p>
+                    </a>
+                </li>
+                <li class="nav-item text-center col">
+                    <a class="nav-link" id="tabhome3settings-tab" data-toggle="tab" href="#tabhome3settings" role="tab" aria-controls="tabhome3settings" aria-selected="false">
+                        <h5 class="content-color-primary mb-0"><i class="material-icons">notifications</i></h5>
+                        <p class="content-color-secondary mb-0 small"> به روزرسانی ها </p>
+                    </a>
+                </li>
+            </ul>
+            <div class="tab-content">
+                <div class="tab-pane active" id="tabhome1settings" role="tabpanel" aria-labelledby="tabhome1settings-tab">
+                    <ul class="list-group list-group-flush" id="chat-list">
+                        <li class="list-group-item new">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> جان دو<small class="float-right content-color-secondary"> 7:05 صبح</small></h6>
+                                    <p>سلام</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item new">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> آلیزا تاکور<small class="float-right content-color-secondary"> 8:05 صبح</small></h6>
+                                    <p>GoTRI از همه بهتر است</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item new">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> انکار توري<small class="float-right content-color-secondary"> 10:05 صبح</small></h6>
+                                    <p> حال شما چطور است؟ </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> جان دو<small class="float-right content-color-secondary"> 7:05 صبح</small></h6>
+                                    <p>سلام</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> آلیزا تاکور<small class="float-right content-color-secondary"> 8:05 صبح</small></h6>
+                                    <p>GoTRI از همه بهتر است</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> انکار توري<small class="float-right content-color-secondary"> 10:05 صبح</small></h6>
+                                    <p> حال شما چطور است؟ </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> جان دو<small class="float-right content-color-secondary"> 7:05 صبح</small></h6>
+                                    <p>سلام</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> آلیزا تاکور<small class="float-right content-color-secondary"> 8:05 صبح</small></h6>
+                                    <p>GoTRI از همه بهتر است</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> انکار توري<small class="float-right content-color-secondary"> 10:05 صبح</small></h6>
+                                    <p> حال شما چطور است؟ </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> جان دو<small class="float-right content-color-secondary"> 7:05 صبح</small></h6>
+                                    <p>سلام</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> آلیزا تاکور<small class="float-right content-color-secondary"> 8:05 صبح</small></h6>
+                                    <p>GoTRI از همه بهتر است</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> انکار توري<small class="float-right content-color-secondary"> 10:05 صبح</small></h6>
+                                    <p> حال شما چطور است؟ </p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> جان دو<small class="float-right content-color-secondary"> 7:05 صبح</small></h6>
+                                    <p>سلام</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> آلیزا تاکور<small class="float-right content-color-secondary"> 8:05 صبح</small></h6>
+                                    <p>GoTRI از همه بهتر است</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-3">
+                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <h6 class="my-0"> انکار توري<small class="float-right content-color-secondary"> 10:05 صبح</small></h6>
+                                    <p> حال شما چطور است؟ </p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade" id="tabhome2settings" role="tabpanel" aria-labelledby="tabhome2settings-tab">
+                    <div class="row mx-0">
+                        <div class="col-12">
+                            <div class="alert alert-success alert-dismissible  mt-2 p-2" role="alert" id="settingalert">
+                                <strong> تبریک!</strong>
+                                <br>تنظیمات شما منعکس شده است.
+                                <button type="button" class="close btn-sm" data-dismiss="alert" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row mx-0 mt-2">
+                        <div class="col-12">
+                            <p class="page-sub-title-small">
+                                <span class="icon-circle mr-2">
+                                     <i class="material-icons">settings</i>
+                                 </span>تنظیمات برنامه</p>
+                        </div>
+                    </div>
+                    <ul class="list-group  list-group-flush w-100">
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2">پنهان کردن پس زمینه</label>
+                            <input type="checkbox" id="hidebackdrop" class="switch switch-sm">
+                            <label for="hidebackdrop" class="pink-gradient float-right"></label>
+                        </li>                      
+                    </ul>
+                    <div class="row mx-0 mt-2">
+                        <div class="col-12">
+                            <p class="page-sub-title-small">
+                                <span class="icon-circle mr-2">
+                                     <i class="material-icons">mail</i>
+                                 </span>تنظیمات ایمیل</p>
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush w-100">
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2">دریافت به روز رسانی ها</label>
+                            <input type="checkbox" id="dead1" class="switch switch-sm" checked>
+                            <label for="dead1" class="pink-gradient float-right"></label>
+                        </li>
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2">دریافت اعلان</label>
+                            <input type="checkbox" id="dead2" class="switch switch-sm" checked>
+                            <label for="dead2" class="pink-gradient float-right"></label>
+                        </li>
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2">هشدارها را دریافت کنید</label>
+                            <input type="checkbox" id="dead3" class="switch switch-sm">
+                            <label for="dead3" class="pink-gradient float-right"></label>
+                        </li>
+                    </ul>
+                    <div class="row mx-0 mt-2">
+                        <div class="col-12">
+                            <p class="page-sub-title-small">
+                                <span class="icon-circle mr-2">
+                                     <i class="material-icons">person</i>
+                                 </span>تنظیمات کاربر</p>
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush w-100">
+                        <li class="list-group-item">
+
+                            <label class="d-inline-block mr-2">لیست اتصال</label>
+                            <input type="checkbox" id="dead11" class="switch switch-sm">
+                            <label for="dead11" class="pink-gradient float-right"></label>
+                            <hr class="mt-2">
+                            <p class="content-color-secondary small mb-2">اگر این تنظیم را مجاز کنید ، دوستان یا ارتباط شما می توانند لیست اتصال شما را ببینند.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2"> نظرات </label>
+                            <input type="checkbox" id="dead21" class="switch switch-sm" checked>
+                            <label for="dead21" class="pink-gradient float-right"></label>
+                            <hr class="mt-2">
+                            <p class="content-color-secondary small mb-2">در صورت اجازه این تنظیم ، دوستان یا ارتباطات شما می توانند در مورد نمایه و پستی که پست کرده اید یا به اشتراک گذاشته اید نظر دهند.</p>
+                        </li>
+                        <li class="list-group-item">
+                            <label class="d-inline-block mr-2">به اشتراک بگذارید </label>
+                            <input type="checkbox" id="dead31" class="switch switch-sm" checked>
+                            <label for="dead31" class="pink-gradient float-right"></label>
+                            <hr class="mt-2">
+                            <p class="content-color-secondary small mb-2">دوستان یا ارتباط شما فقط در صورت مجاز بودن این تنظیم می توانند پست شما را که ارسال کرده اید و توسط شما نوشته شده است به اشتراک بگذارند.</p>
+                        </li>
+                    </ul>
+                </div>
+                <div class="tab-pane fade " id="tabhome3settings" role="tabpanel" aria-labelledby="tabhome3settings-tab">
+                    <div class="row mx-0 mt-0 bg-light">
+                        <div class="col-12">
+                            <div class="card my-3">
+                                <div class="card-body">
+                                    <div class="media">
+                                        <div class="icon-circle icon-50 bg-light-primary mr-3">
+                                            <i class="material-icons">track_changes</i>
+                                        </div>
+                                        <div class="media-body">
+                                            <h4 class="content-color-primary mb-0">شغل خوب! </h4>
+                                            <p class="content-color-secondary mb-3">سیستم کاملاً در حال اجرا است. </p>
+                                        </div>
+                                    </div>
+                                    <div class="progress progress-small">
+                                        <div class="progress-bar bg-primary col-6" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <p class="page-sub-title-small">
+                                <span class="icon-circle mr-2">
+                                    <i class="material-icons">av_timer</i>
+                                 </span>تنظیمات برنامه
+                            </p>
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush w-100 log-information mt-2">
+                        <li class="list-group-item">
+                            <div class="avatar avatar-15 border-danger"></div>
+                            <p class="content-color-primary">سیستم به روز شد
+                                <br><small class="content-color-secondary">2:02 صبح </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-warning"></span>
+                            <p class="content-color-primary">حساب جدید ایجاد شد
+                                <br><small class="content-color-secondary">5:02 بعدازظهر </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-success"></span>
+                            <p class="content-color-primary">خاموش شدن 2 ساعت
+                                <br><small class="content-color-secondary">دیروز | 2:02 بعد از ظهر</small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-primary"></span>
+                            <p class="content-color-primary">سیستم به روز شد
+                                <br><small class="content-color-secondary">دیروز | 1:32 بعد از ظهر</small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-dark"></span>
+                            <p class="content-color-primary">تغییرات icro انجام شد!
+                                <br><small class="content-color-secondary">14 تیر 1397  | 2:02 صبح </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-secondary"></span>
+                            <p class="content-color-primary">تغییرات icro انجام شد!
+                                <br><small class="content-color-secondary">14 تیر 1397  | 2:02 صبح </small></p>
+                        </li>
+                    </ul>
+                    <br>
+                    <div class="row mx-0 mt-2 bg-light">
+                        <div class="col-12">
+                            <p class="page-sub-title-small">
+                                <span class="icon-circle mr-2">
+                                     <i class="material-icons">av_timer</i>
+                                 </span>تنظیمات برنامه</p>
+                        </div>
+                    </div>
+                    <ul class="list-group list-group-flush w-100 log-information bubble-sheet mt-2">
+                        <li class="list-group-item">
+                            <div class="avatar avatar-15 border-danger"></div>
+                            <p class="content-color-primary">سیستم به روز شد
+                                <br><small class="content-color-secondary">2:02 صبح </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-warning"></span>
+                            <p class="content-color-primary">حساب جدید ایجاد شد
+                                <br><small class="content-color-secondary">5:02 بعدازظهر </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-success"></span>
+                            <p class="content-color-primary">خاموش شدن 2 ساعت
+                                <br><small class="content-color-secondary">دیروز | 2:02 بعد از ظهر</small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-primary"></span>
+                            <p class="content-color-primary">سیستم به روز شد
+                                <br><small class="content-color-secondary">دیروز | 1:32 بعد از ظهر</small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-dark"></span>
+                            <p class="content-color-primary">تغییرات icro انجام شد!
+                                <br><small class="content-color-secondary">14 تیر 1397  | 2:02 صبح </small></p>
+                        </li>
+                        <li class="list-group-item">
+                            <span class="avatar avatar-15 border-secondary"></span>
+                            <p class="content-color-primary">تغییرات icro انجام شد!
+                                <br><small class="content-color-secondary">14 تیر 1397  | 2:02 صبح </small></p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="settings-sidebar-backdrop pink-gradient"></div>
+        <div class="chat-window">
+            <div class="card">
+                <div class="card-header pink-gradient p-2">
+                    <div class="media">
+                        <figure class="avatar avatar-20 mr-2">
+                            <img src="img/user1.png" alt="Generic placeholder image">
+                        </figure>
+                        <div class="media-body">
+                            <h6 class="text-white mb-0"> جان مک ماهون <span class="status vm bg-success"></span></h6>
+                        </div>
+                        <button class="btn btn-link p-0 chat-minmax vm"><i class="material-icons minimizeicon">remove</i><i class="material-icons fullscreenicon">fullscreen</i></button>
+                        <button class="btn btn-link p-0 chat-close vm"><i class="material-icons closeicon">close</i></button>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <ul class="list-group chatlist">
+                        <li class="list-group-item ">
+                            <div class="media">
+                                <figure class="avatar avatar-40 mr-2">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    فردا هویج نبیه در غیر باردار است.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item chat-you">
+                            <div class="media">
+                                <div class="media-body">
+                                    فردا هویج نبیه در غیر باردار است.
+                                </div>
+                                <figure class="avatar avatar-40 ml-2">
+                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                </figure>
+                            </div>
+                        </li>
+                        <li class="list-divider">20 شهریور 1397</li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <div class="media-body">
+                                    فردا هویج نبیه در غیر باردار است.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item chat-you">
+                            <div class="media">
+                                <div class="media-body">
+                                    فردا هویج نبیه در غیر باردار است.
+                                </div>
+                            </div>
+                        </li>
+                        <li class="list-group-item">
+                            <div class="media">
+                                <div class="media-body">
+                                    فردا هویج نبیه در غیر باردار است.
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="card-footer">
+                    <div class="input-group input-group-sm">
+                        <div class="input-group-prepend">
+                            <button class="input-group-text px-1 rounded-0">
+                                <i class="material-icons">mood</i>
+                            </button>
+                        </div>
+                        <input type="text" class="form-control" placeholder = "پیام را وارد کنید ...">
+                        <div class="input-group-prepend">
+                            <button class="input-group-text px-1">
+                                <i class="material-icons">attach_file</i>
+                            </button>
+                        </div>
+                        <div class="input-group-prepend">
+                            <button class="input-group-text px-1">
+                                <i class="material-icons">send</i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- setting sidebar ends -->
+
+        <!-- content page title -->
+        <div class="container-fluid bg-light-opac">
+            <div class="row">
+                <div class="container my-3 main-container">
+                    <div class="row align-items-center">
+                        <div class="col">
+                            <h2 class="content-color-primary page-title"> داشبورد </h2>
+                            <p class="content-color-secondary page-sub-title">خلاق ، شگفت انگیز ، عالی و بی نظیر</p>
+                        </div>
+                        <div class="col-auto mt-2">
+                            <!--<div id="reportrange" class="btn btn-rounded primary-gradient daterangeheader mr-2">
+                                <span></span>
+                                <i class="material-icons ml-2">date_range</i>
+                            </div>-->
+                            <button class="btn btn-rounded pink-gradient text-uppercase" data-toggle="modal" data-target="#createOrder"><i class="material-icons">add</i> <span class="text-hide-xs">انتقال</span></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content page title ends -->
+
+        <!-- content page -->
+        <div class="container mt-4 main-container">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="media">
+                                <div class="media-body">
+                                    <p class="content-color-secondary mb-0">فروش روزانه<span class="text-success float-right"><i class="material-icons icon-sm">arrow_drop_up</i> 250 تومان</span></p>
+                                    <h4 class="content-color-primary mb-3">2000.00 تومان</h4>
+                                </div>
+                            </div>
+                            <div class="progress progress-small">
+                                <div class="progress-bar bg-success col-6" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="media">
+                                <div class="icon-circle icon-50 bg-light-danger mr-3">
+                                    <i class="material-icons">settings</i>
+                                </div>
+                                <div class="media-body">
+                                    <p class="content-color-secondary mb-0">ماده خام<span class="text-danger float-right"><i class="material-icons icon-sm">arrow_drop_down</i> 250 تومان</span></p>
+                                    <h4 class="content-color-primary mb-3">1506.00 تومان</h4>
+                                </div>
+                            </div>
+                            <div class="progress progress-small">
+                                <div class="progress-bar bg-danger col-6" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="media">
+                                <div class="icon-rounded icon-50 bg-light-warning mr-3">
+                                    <i class="material-icons">account_balance_wallet</i>
+                                </div>
+                                <div class="media-body">
+                                    <p class="content-color-secondary mb-0">تعادل کمبود</p>
+                                    <h4 class="content-color-primary mb-3">26</h4>
+                                </div>
+                            </div>
+                            <div class="progress progress-small">
+                                <div class="progress-bar bg-warning col-6" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="icon-rounded icon-50 shadow-light primary-gradient top-right-icon">
+                                <i class="material-icons">account_balance</i>
+                            </div>
+                            <div class="media">
+                                <div class="media-body">
+                                    <p class="content-color-secondary mb-0"> هدف سود</p>
+                                    <h4 class="content-color-primary mb-3">40% <small class="content-color-secondary">به دست آورد </small></h4>
+                                </div>
+                            </div>
+                            <div class="progress progress-small">
+                                <div class="progress-bar bg-primary col-4" role="progressbar" aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-header">
+                            <div class="media">
+                                <figure class="avatar avatar-50 mr-2">
+                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                </figure>
+                                <div class="media-body">
+                                    <p class="content-color-secondary mb-0">خوش آمدید </p>
+                                    <h4 class="content-color-primary mb-0"> جان مک ماهون </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="mt-4">210</h1>
+                            <p class="small mb-0 content-color-secondary">سفارش دریافت شد</p>
+                        </div>
+                        <div class="card-footer bg-light-secondary border-top">
+                            <div class="media">
+                                <div class="icon-circle icon-40 mr-2 content-color-secondary">
+                                    <i class="material-icons icon-lg">add_shopping_cart</i>
+                                </div>
+                                <div class="media-body">
+                                    <h5 class="content-color-primary mb-0">209</h5>
+                                    <p class="content-color-secondary mb-0 small">محصول موجود</p>
+                                </div>
+                                <a href="" class="icon-circle icon-40 content-color-secondary">
+                                    <i class="material-icons icon-lg">keyboard_arrow_left</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4 fullscreen">
+                        <div class="card-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="content-color-primary mb-0">طلا</h4>
+                                    <p class="content-color-secondary mb-0">24 عیار</p>
+                                </div>
+                                <a href="javascript:void(0);" class="icon-circle icon-30 content-color-secondary fullscreenbtn">
+                                    <i class="material-icons ">crop_free</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <h1 class="mt-4"><span class="font-weight-light">تومان</span> 2053.19</h1>
+                            <p class="small mb-1 text-success "><i class="material-icons icon-sm">arrow_drop_up</i> 250 تومان</p>
+                        </div>
+                        <div class="card-footer border-top">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5 class="content-color-primary mb-0">استوک را پاک کنید</h5>
+                                    <p class="content-color-secondary mb-0 small"><span class="content-color-primary">+15%</span> در مقابل ماه گذشته </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12">
+                    <div class="card mb-4 fullscreen">
+                        <div class="card-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="content-color-primary mb-0"> دولت های مالی <small class="content-color-secondary"> در سود </small></h4>
+                                </div>
+                                <a href="javascript:void(0);" class="icon-circle icon-30 content-color-secondary fullscreenbtn">
+                                    <i class="material-icons ">crop_free</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="tabhome1" role="tabpanel" aria-labelledby="tabhome1-tab">
+                                    <canvas id="mixedchartjs"></canvas>
+                                </div>
+                                <div class="tab-pane fade" id="tabhome2" role="tabpanel" aria-labelledby="tabhome2-tab">
+                                    <canvas id="linechart"></canvas>
+                                </div>
+                                <div class="tab-pane fade scrolltable110px" id="tabhome3" role="tabpanel" aria-labelledby="tabhome3-tab">
+                                    <div class="">
+                                        <table class="table table-sm table-striped mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th> شناسه</th>
+                                                    <th> نام محصول</th>
+                                                    <th> مقدار</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td> کفش</td>
+                                                    <td>520</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>002</td>
+                                                    <td> لباس</td>
+                                                    <td>1020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>003</td>
+                                                    <td> لوله ها</td>
+                                                    <td>20</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>004</td>
+                                                    <td> کفش</td>
+                                                    <td>520</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>005</td>
+                                                    <td> لباس</td>
+                                                    <td>1020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>006</td>
+                                                    <td> لوله ها</td>
+                                                    <td>20</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer border-top tabs-footer">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="tabhome1-tab" data-toggle="tab" href="#tabhome1" role="tab" aria-controls="tabhome1" aria-selected="true">
+                                        <h5 class="content-color-primary mb-0">درآمد </h5>
+                                        <p class="content-color-secondary mb-0 small"><span class="content-color-primary">+15%</span> در مقابل دیروز </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tabhome2-tab" data-toggle="tab" href="#tabhome2" role="tab" aria-controls="tabhome2" aria-selected="false">
+                                        <h5 class="content-color-primary mb-0">هزینه </h5>
+                                        <p class="content-color-secondary mb-0 small"><span class="content-color-primary">+20%</span> در مقابل دیروز </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tabhome3-tab" data-toggle="tab" href="#tabhome3" role="tab" aria-controls="tabhome3" aria-selected="false">
+                                        <h5 class="content-color-primary mb-0">کمبود سهام </h5>
+                                        <p class="content-color-secondary mb-0 small"><span class="content-color-primary">+5%</span> در مقابل دیروز </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-12">
+                    <div class="card mb-4 fullscreen">
+                        <div class="card-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="content-color-primary mb-0">دولت های مالی</h4>
+                                </div>
+                                <input type="text" class="form-control form-control-sm daterange mr-2 d-none" name="daterange" value="01/01/2018 - 01/15/2018" />
+                                <a href="javascript:void(0);" class="icon-circle icon-30 content-color-secondary fullscreenbtn">
+                                    <i class="material-icons ">crop_free</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="tab-content">
+                                <div class="tab-pane fade show active" id="tabhome1-1" role="tabpanel" aria-labelledby="tabhome1-tab">
+                                    <canvas id="barcharts"></canvas>
+                                    <div class="legend3" id="legend3"></div>
+                                </div>
+                                <div class="tab-pane fade scrolltable155px" id="tabhome2-1" role="tabpanel" aria-labelledby="tabhome3-tab">
+                                    <div class="">
+                                        <table class="table table-sm table-striped mb-0">
+                                            <thead>
+                                                <tr>
+                                                    <th> شناسه</th>
+                                                    <th> نام محصول</th>
+                                                    <th> مقدار</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td>001</td>
+                                                    <td> کفش</td>
+                                                    <td>520</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>002</td>
+                                                    <td> لباس</td>
+                                                    <td>1020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>003</td>
+                                                    <td> لوله ها</td>
+                                                    <td>20</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>004</td>
+                                                    <td> کفش</td>
+                                                    <td>520</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>005</td>
+                                                    <td> لباس</td>
+                                                    <td>1020</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>006</td>
+                                                    <td> لوله ها</td>
+                                                    <td>20</td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer border-top tabs-footer">
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="tabhome1-1-tab" data-toggle="tab" href="#tabhome1-1" role="tab" aria-controls="tabhome1-1" aria-selected="true">
+                                        <h5 class="content-color-primary mb-0">وارد شد </h5>
+                                        <p class="content-color-secondary mb-0 small"><span class="content-color-primary">2000</span> محصولات </p>
+                                    </a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="tabhome2-1-tab" data-toggle="tab" href="#tabhome2-1" role="tab" aria-controls="tabhome2-1" aria-selected="false">
+                                        <h5 class="content-color-primary mb-0">صادر شد </h5>
+                                        <p class="content-color-secondary mb-0 small"><span class="content-color-primary">2500</span> محصولات </p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4 pink-gradient">
+                        <div class="card-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="text-white mb-0">فروش داخلی</h4>
+                                </div>
+                                <div class="dropdown d-inline-block">
+                                    <a href="#" class="icon-circle icon-30 text-white  dropdown-toggle caret-none" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        <i class="material-icons ">more_vertical</i>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a href="" class="dropdown-item">تازه سازی </a>
+                                        <a href="" class="dropdown-item">تنظیمات </a>
+                                        <a href="" class="dropdown-item">بستن</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <canvas id="piecharts"></canvas>
+                        </div>
+                        <div class="card-footer border-top">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5 class="text-white mb-0">خیلی بهتر</h5>
+                                    <p class="text-white mb-0 small"><span class="text-white">+50%</span> در مقابل ماه گذشته </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4 has-background-img bg-dark">
+                        <figure class="background-img ">
+                            <img src="img/bw.jpg" alt="">
+                        </figure>
+                        <div class="card-header pb-0">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="text-white mb-0"> سیاه و سفید</h4>
+                                    <p class="text-secondary mt-1">برای افرادی که توانایی خاصی در کوررنگی دارند<a href="colorblindness.html" class="text-white" target="_blank">بیشتر بخوانید. </a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-right">
+                            <label class="d-inline-block mr-2 text-white">فعال کردن </label>
+                            <input type="checkbox" id="darktheme" class="switch">
+                            <label for="darktheme" class="bg-dark mb-2 border"></label>
+                        </div>
+                    </div>
+                    <div class="card mb-4 animated animateflipy">
+                        <div class="card-header">
+                            <div class="media">
+                                <div class="icon-circle icon-50 bg-light-pink mr-3">
+                                    <i class="material-icons">settings</i>
+                                </div>
+                                <div class="media-body">
+                                    <h4 class="content-color-primary mb-0 mt-2">طرح های رنگی </h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-light-secondary border-top ">
+                            <a href="javascript:void(0);" id="opencolorpanel" class="media">
+                                <div class="media-body">
+                                    <h5 class="content-color-primary mb-0"> سفید </h5>
+                                    <p class="content-color-secondary mb-0 small">طرح رنگ را تغییر دهید</p>
+                                </div>
+                                <div class="icon-circle icon-40 content-color-secondary">
+                                    <i class="material-icons icon-lg">keyboard_arrow_left</i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4 fullscreen">
+                        <div class="card-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="content-color-primary mb-0">پروفایل</h4>
+                                </div>
+                                <button class="btn btn-sm primary-gradient mr-2">ویرایش</button>
+                                <a href="javascript:void(0);" class="icon-circle icon-30 content-color-secondary fullscreenbtn">
+                                    <i class="material-icons ">crop_free</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body ">
+                            <div class="row align-items-center no-gutters">
+                                <div class="col-auto">
+                                    <button class="btn btn-icon icon-circle icon-50 p-0">
+                                        <i class="material-icons">mail_outline</i>
+                                    </button>
+                                </div>
+                                <a href="profile.html " class="col">
+                                    <figure class="avatar avatar-120 mx-auto mb-3">
+                                        <img src="img/user1.png" alt="">
+                                    </figure>
+                                </a>
+                                <div class="col-auto">
+                                    <button class="btn btn-icon icon-circle icon-50 p-0">
+                                        <i class="material-icons">call</i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <h5 class="card-title mb-2 header-color-primary text-center"> جان مک ماهون </h5>
+                            <h6 class="card-subtitle mb-3 header-color-secondary text-center"> آفریقای جنوبی </h6>
+
+                            <div class="row bg-light-secondary text-center">
+                                <div class="col py-3">
+                                    <h5 class="content-color-primary mb-0">5000</h5>
+                                    <p class="content-color-secondary small mb-0 "> دنبال کننده </p>
+                                </div>
+                                <div class="col py-3">
+                                    <h5 class="content-color-primary mb-0">450</h5>
+                                    <p class="content-color-secondary small mb-0"> ارتباطات </p>
+                                </div>
+                                <div class="col py-3">
+                                    <h5 class="content-color-primary mb-0">1586</h5>
+                                    <p class="content-color-secondary small mb-0 "> پست ها </p>
+                                </div>
+                            </div>
+                            <p class="content-color-secondary page-sub-title-small">ارسالهای اخیر من </p>
+                            <div class="row">
+                                <div class="col-12">
+                                    <ul class="list-group border-top border-bottom list-group-flush">
+                                        <li class="list-group-item px-0">
+                                            <div class="media">
+                                                <div class="icon-circle icon-50 bg-light-primary mr-3">
+                                                    <i class="material-icons">chrome_reader_mode</i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h6 class="my-0 mt-1">آلیزی جانسون</h6>
+                                                    <p class="small">فردا هویج نبیه در غیر باردار است.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <div class="media">
+                                                <div class="icon-circle icon-50 bg-light-primary mr-3">
+                                                    <i class="material-icons">chrome_reader_mode</i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h6 class="my-0 mt-1">آلیزی جانسون</h6>
+                                                    <p class="small">فردا هویج نبیه در غیر باردار است.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="list-group-item px-0">
+                                            <div class="media">
+                                                <div class="icon-circle icon-50 bg-light-primary mr-3">
+                                                    <i class="material-icons">chrome_reader_mode</i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h6 class="my-0 mt-1">آلیزی جانسون</h6>
+                                                    <p class="small">فردا هویج نبیه در غیر باردار است.</p>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4 fullscreen">
+                        <div class="card-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="content-color-primary mb-0">سابقه خرید </h4>
+                                </div>
+                                <a href="javascript:void(0);" class="icon-circle icon-30 content-color-secondary fullscreenbtn">
+                                    <i class="material-icons ">crop_free</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body pt-0">
+                            <table class="table border-bottom mb-0 footable">
+                                <thead class="d-none">
+                                    <tr>
+                                        <th>تجارت </th>
+                                        <th data-breakpoints="xs">کل </th>
+                                        <th data-breakpoints="xs sm">وضعیت</th>
+                                        <th data-breakpoints="xs sm">قیمت</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="media">
+                                                <div class="icon-circle icon-50 bg-light-primary mr-3">
+                                                    <i class="material-icons">business</i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h6 class="my-0 mt-1">فضای مریخ </h6>
+                                                    <p class="small">ایران ، خوزستان</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h6 class="my-0 mt-1">3250</h6>
+                                            <p class="content-color-secondary small mb-0">بلیط </p>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="btn btn-rounded btn-outline-success px-3 btn-sm">عادی </span>
+                                        </td>
+                                        <td class="text-center">
+                                            <b>250 تومان</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="media">
+                                                <div class="icon-circle icon-50 bg-light-primary mr-3">
+                                                    <i class="material-icons">business</i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h6 class="my-0 mt-1">چینمایایار </h6>
+                                                    <p class="small">هند</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h6 class="my-0 mt-1">1250</h6>
+                                            <p class="content-color-secondary small mb-0">بلیط </p>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="btn btn-rounded btn-outline-danger px-3 btn-sm">بالا </span>
+                                        </td>
+                                        <td class="text-center">
+                                            <b>250 تومان</b>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="media">
+                                                <div class="icon-circle icon-50 bg-light-primary mr-3">
+                                                    <i class="material-icons">business</i>
+                                                </div>
+                                                <div class="media-body">
+                                                    <h6 class="my-0 mt-1">پرونده باز</h6>
+                                                    <p class="small">ایران ، خوزستان</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h6 class="my-0 mt-1">5250</h6>
+                                            <p class="content-color-secondary small mb-0">بلیط </p>
+                                        </td>
+                                        <td class="text-center">
+                                            <span class="btn btn-rounded btn-outline-warning px-3 btn-sm">متوسط ​​</span>
+                                        </td>
+                                        <td class="text-center">
+                                            <b>250 تومان</b>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                    <div class="card mb-4 fullscreen">
+                        <div class="card-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="content-color-primary mb-0">فهرست کاربران</h4>
+                                </div>
+                                <a href="javascript:void(0);" class="icon-circle icon-30 content-color-secondary fullscreenbtn">
+                                    <i class="material-icons ">crop_free</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body pt-0">
+                            <table class="table border-bottom mb-0 footable">
+                                <thead class="d-none">
+                                    <tr>
+                                        <th> کاربر</th>
+                                        <th data-breakpoints="xs">کل </th>
+                                        <th data-breakpoints="xs sm">درآمد </th>
+                                        <th data-breakpoints="xs sm">عمل</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>
+                                            <div class="media">
+                                                <figure class="avatar avatar-50 mr-3">
+                                                    <img src="img/user1.png" alt="Generic placeholder image">
+                                                </figure>
+                                                <div class="media-body">
+                                                    <h6 class="my-0 mt-1">جان دو</h6>
+                                                    <p class="small">ایران ، خوزستان</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h6 class="my-0 mt-1">3250</h6>
+                                            <p class="content-color-secondary small mb-0">وظیفه </p>
+                                        </td>
+                                        <td>
+                                            <h6 class="my-0 mt-1">15545 تومان</h6>
+                                            <p class="content-color-secondary small mb-0">کل درآمد</p>
+                                        </td>
+                                        <td class="text-right">
+                                            <button class="btn pink-gradient px-3 btn-sm">ویرایش</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="media">
+                                                <figure class="avatar avatar-50 mr-3">
+                                                    <img src="img/user2.png" alt="Generic placeholder image">
+                                                </figure>
+                                                <div class="media-body">
+                                                    <h6 class="my-0 mt-1">آنوشکا مکوان</h6>
+                                                    <p class="small">هند</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h6 class="my-0 mt-1">1250</h6>
+                                            <p class="content-color-secondary small mb-0">وظیفه </p>
+                                        </td>
+                                        <td>
+                                            <h6 class="my-0 mt-1">25545 تومان</h6>
+                                            <p class="content-color-secondary small mb-0">کل درآمد</p>
+                                        </td>
+                                        <td class="text-right">
+                                            <button class="btn pink-gradient px-3 btn-sm">ویرایش</button>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                            <div class="media">
+                                                <figure class="avatar avatar-50 mr-3">
+                                                    <img src="img/user3.png" alt="Generic placeholder image">
+                                                </figure>
+                                                <div class="media-body">
+                                                    <h6 class="my-0 mt-1">ردی جان</h6>
+                                                    <p class="small">ایران ، خوزستان</p>
+                                                </div>
+                                            </div>
+                                        </td>
+                                        <td>
+                                            <h6 class="my-0 mt-1">5250</h6>
+                                            <p class="content-color-secondary small mb-0">وظیفه </p>
+                                        </td>
+                                        <td>
+                                            <h6 class="my-0 mt-1">11523 تومان</h6>
+                                            <p class="content-color-secondary small mb-0">کل درآمد</p>
+                                        </td>
+                                        <td class="text-right">
+                                            <button class="btn pink-gradient px-3 btn-sm">ویرایش</button>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4">
+                        <div class="card-body">
+                            <div class="text-center">
+                                <img src="img/birtmsg.png" class="mw-100 mx-auto mb-3" alt="">
+                            </div>
+                            <h1 class="font-weight-light">سفارش دریافت شد!</h1>
+                        </div>
+                        <div class="card-footer">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5 class="content-color-primary mb-0">Pipe ID5246</h5>
+                                    <p class="content-color-secondary mb-0 small">تحویل به نیویورک</p>
+                                </div>
+                                <a href="" class="icon-circle icon-40 content-color-secondary">
+                                    <i class="material-icons icon-lg">keyboard_arrow_left</i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="card mb-4 fullscreen">
+                        <div class="card-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="content-color-primary mb-0">فروش جهانی </h4>
+                                    <p class="content-color-secondary mb-0">5200 فروش در ماه</p>
+                                </div>
+                                <a href="javascript:void(0);" class="icon-circle icon-30 content-color-secondary fullscreenbtn">
+                                    <i class="material-icons ">crop_free</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <div class="vectormap" id="mapwrap"></div>
+                        </div>
+                        <div class="card-footer  border-top">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5 class="content-color-primary mb-0">سهام ایجاد کنید</h5>
+                                    <p class="content-color-secondary mb-0 small"><span class="content-color-primary">-12.00%</span> قیمت افت کرد</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12">
+                    <div class="card mb-4 fullscreen">
+                        <div class="card-header">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h4 class="content-color-primary mb-0">فروش جهانی </h4>
+                                    <p class="content-color-secondary mb-0">5200 فروش در ماه</p>
+                                </div>
+                                <a href="javascript:void(0);" class="icon-circle icon-30 content-color-secondary fullscreenbtn">
+                                    <i class="material-icons ">crop_free</i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <canvas class="" id="linechartarea"></canvas>
+                        </div>
+                        <div class="card-footer border-top mt-2">
+                            <div class="media">
+                                <div class="media-body">
+                                    <h5 class="content-color-primary mb-0">عملکرد عالی ، تبریک می گویم!</h5>
+                                    <p class="content-color-secondary mb-0 small"><span class="content-color-primary">12.00%</span> سود حاصل در این ماه</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content page ends -->
+
+    </div>
+    <footer class="border-top">
+        <div class="row">
+            <div class="col-12 col-sm-6" style="font-size:12px!important">بومی سازی شده توسط <a href="https://damandarya.ir/" target="_blank">دامن دریا</a> و خانم باغبانزاده</div>
+            <div class="col-12 col-sm-6 text-right"><a href="" class="content-color-secondary">سیاست حفظ حریم خصوصی</a> | <a href="" class="content-color-secondary">شرایط استفاده</a></div>
+        </div>
+    </footer>
+
+    <!-- modal for create form -->
+    <div class="modal fade" id="createOrder" tabindex="-1" role="dialog" aria-labelledby="createOrderTitle" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header" id="createOrderTitle">
+                    <div class="col text-center">
+                    <img src="img/logo.png" alt="" class="mt-4">
+                    <br>
+                    <h5 class="mt-4">انتقال قدرت شرکت</h5>
+                    <p>لطفا با ارائه اطلاعات زیر رزرو آنلاین خود را تکمیل کنید</p>
+                    </div>
+                    <button type="button" class="close absolute" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10 mx-auto">
+                            <div class="form-group row">
+                                <div class="col-lg-6 col-md-6">
+                                    <label>نام کوچک</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <label>نام خانوادگی</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-lg-6 col-md-6">
+                                    <label>ایمیل</label>
+                                    <input type="email" class="form-control" placeholder="">
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <label>شماره تلفن</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <label>کشور</label>
+                                            <select class="form-control " data-live-search="true" tabindex="-1" aria-hidden="true">
+                                                <option value="AF">ایران</option>
+                                                <option value="AX">Åland Islands</option>
+                                                <option value="AL">Albania</option>
+                                                <option value="DZ">Algeria</option>
+                                                <option value="AS">American Samoa</option>
+                                                <option value="AD">Andorra</option>
+                                                <option value="AO">Angola</option>
+                                                <option value="AI">Anguilla</option>
+                                                <option value="AQ">Antarctica</option>
+                                                <option value="AG">Antigua and Barbuda</option>
+                                                <option value="AR">Argentina</option>
+                                                <option value="AM">Armenia</option>
+                                                <option value="AW">Aruba</option>
+                                                <option value="AU">Australia</option>
+                                                <option value="AT">Austria</option>
+                                                <option value="AZ">Azerbaijan</option>
+                                                <option value="BS">Bahamas</option>
+                                                <option value="BH">Bahrain</option>
+                                                <option value="BD">Bangladesh</option>
+                                                <option value="BB">Barbados</option>
+                                                <option value="BY">Belarus</option>
+                                                <option value="BE">Belgium</option>
+                                                <option value="BZ">Belize</option>
+                                                <option value="BJ">Benin</option>
+                                                <option value="BM">Bermuda</option>
+                                                <option value="BT">Bhutan</option>
+                                                <option value="BO">Bolivia, Plurinational State of</option>
+                                                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                                <option value="BA">Bosnia and Herzegovina</option>
+                                                <option value="BW">Botswana</option>
+                                                <option value="BV">Bouvet Island</option>
+                                                <option value="BR">Brazil</option>
+                                                <option value="IO">British Indian Ocean Territory</option>
+                                                <option value="BN">Brunei Darussalam</option>
+                                                <option value="BG">Bulgaria</option>
+                                                <option value="BF">Burkina Faso</option>
+                                                <option value="BI">Burundi</option>
+                                                <option value="KH">Cambodia</option>
+                                                <option value="CM">Cameroon</option>
+                                                <option value="CA">Canada</option>
+                                                <option value="CV">Cape Verde</option>
+                                                <option value="KY">Cayman Islands</option>
+                                                <option value="CF">Central African Republic</option>
+                                                <option value="TD">Chad</option>
+                                                <option value="CL">Chile</option>
+                                                <option value="CN">China</option>
+                                                <option value="CX">Christmas Island</option>
+                                                <option value="CC">Cocos (Keeling) Islands</option>
+                                                <option value="CO">Colombia</option>
+                                                <option value="KM">Comoros</option>
+                                                <option value="CG">Congo</option>
+                                                <option value="CD">Congo, the Democratic Republic of the</option>
+                                                <option value="CK">Cook Islands</option>
+                                                <option value="CR">Costa Rica</option>
+                                                <option value="CI">Côte d'Ivoire</option>
+                                                <option value="HR">Croatia</option>
+                                                <option value="CU">Cuba</option>
+                                                <option value="CW">Curaçao</option>
+                                                <option value="CY">Cyprus</option>
+                                                <option value="CZ">Czech Republic</option>
+                                                <option value="DK">Denmark</option>
+                                                <option value="DJ">Djibouti</option>
+                                                <option value="DM">Dominica</option>
+                                                <option value="DO">Dominican Republic</option>
+                                                <option value="EC">Ecuador</option>
+                                                <option value="EG">Egypt</option>
+                                                <option value="SV">El Salvador</option>
+                                                <option value="GQ">Equatorial Guinea</option>
+                                                <option value="ER">Eritrea</option>
+                                                <option value="EE">Estonia</option>
+                                                <option value="ET">Ethiopia</option>
+                                                <option value="FK">Falkland Islands (Malvinas)</option>
+                                                <option value="FO">Faroe Islands</option>
+                                                <option value="FJ">Fiji</option>
+                                                <option value="FI">Finland</option>
+                                                <option value="FR">France</option>
+                                                <option value="GF">French Guiana</option>
+                                                <option value="PF">French Polynesia</option>
+                                                <option value="TF">French Southern Territories</option>
+                                                <option value="GA">Gabon</option>
+                                                <option value="GM">Gambia</option>
+                                                <option value="GE">شیراز</option>
+                                                <option value="DE">Germany</option>
+                                                <option value="GH">Ghana</option>
+                                                <option value="GI">Gibraltar</option>
+                                                <option value="GR">Greece</option>
+                                                <option value="GL">Greenland</option>
+                                                <option value="GD">Grenada</option>
+                                                <option value="GP">Guadeloupe</option>
+                                                <option value="GU">Guam</option>
+                                                <option value="GT">Guatemala</option>
+                                                <option value="GG">Guernsey</option>
+                                                <option value="GN">Guinea</option>
+                                                <option value="GW">Guinea-Bissau</option>
+                                                <option value="GY">Guyana</option>
+                                                <option value="HT">Haiti</option>
+                                                <option value="HM">Heard Island and McDonald Islands</option>
+                                                <option value="VA">Holy See (Vatican City State)</option>
+                                                <option value="HN">Honduras</option>
+                                                <option value="HK">Hong Kong</option>
+                                                <option value="HU">Hungary</option>
+                                                <option value="IS">Iceland</option>
+                                                <option value="IN">India</option>
+                                                <option value="ID">Indonesia</option>
+                                                <option value="IR">Iran, Islamic Republic of</option>
+                                                <option value="IQ">Iraq</option>
+                                                <option value="IE">Ireland</option>
+                                                <option value="IM">Isle of Man</option>
+                                                <option value="IL">Israel</option>
+                                                <option value="IT">Italy</option>
+                                                <option value="JM">Jamaica</option>
+                                                <option value="JP">Japan</option>
+                                                <option value="JE">Jersey</option>
+                                                <option value="JO">Jordan</option>
+                                                <option value="KZ">Kazakhstan</option>
+                                                <option value="KE">Kenya</option>
+                                                <option value="KI">Kiribati</option>
+                                                <option value="KP">Korea, Democratic People's Republic of</option>
+                                                <option value="KR">Korea, Republic of</option>
+                                                <option value="KW">Kuwait</option>
+                                                <option value="KG">Kyrgyzstan</option>
+                                                <option value="LA">Lao People's Democratic Republic</option>
+                                                <option value="LV">Latvia</option>
+                                                <option value="LB">Lebanon</option>
+                                                <option value="LS">Lesotho</option>
+                                                <option value="LR">Liberia</option>
+                                                <option value="LY">Libya</option>
+                                                <option value="LI">Liechtenstein</option>
+                                                <option value="LT">Lithuania</option>
+                                                <option value="LU">Luxembourg</option>
+                                                <option value="MO">Macao</option>
+                                                <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                                                <option value="MG">Madagascar</option>
+                                                <option value="MW">Malawi</option>
+                                                <option value="MY">Malaysia</option>
+                                                <option value="MV">Maldives</option>
+                                                <option value="ML">Mali</option>
+                                                <option value="MT">Malta</option>
+                                                <option value="MH">Marshall Islands</option>
+                                                <option value="MQ">Martinique</option>
+                                                <option value="MR">Mauritania</option>
+                                                <option value="MU">Mauritius</option>
+                                                <option value="YT">Mayotte</option>
+                                                <option value="MX">Mexico</option>
+                                                <option value="FM">Micronesia, Federated States of</option>
+                                                <option value="MD">Moldova, Republic of</option>
+                                                <option value="MC">Monaco</option>
+                                                <option value="MN">Mongolia</option>
+                                                <option value="ME">Montenegro</option>
+                                                <option value="MS">Montserrat</option>
+                                                <option value="MA">Morocco</option>
+                                                <option value="MZ">Mozambique</option>
+                                                <option value="MM">Myanmar</option>
+                                                <option value="NA">Namibia</option>
+                                                <option value="NR">Nauru</option>
+                                                <option value="NP">Nepal</option>
+                                                <option value="NL">Netherlands</option>
+                                                <option value="NC">New Caledonia</option>
+                                                <option value="NZ">New Zealand</option>
+                                                <option value="NI">Nicaragua</option>
+                                                <option value="NE">Niger</option>
+                                                <option value="NG">Nigeria</option>
+                                                <option value="NU">Niue</option>
+                                                <option value="NF">Norfolk Island</option>
+                                                <option value="MP">Northern Mariana Islands</option>
+                                                <option value="NO">Norway</option>
+                                                <option value="OM">Oman</option>
+                                                <option value="PK">Pakistan</option>
+                                                <option value="PW">Palau</option>
+                                                <option value="PS">Palestinian Territory, Occupied</option>
+                                                <option value="PA">Panama</option>
+                                                <option value="PG">Papua New Guinea</option>
+                                                <option value="PY">Paraguay</option>
+                                                <option value="PE">Peru</option>
+                                                <option value="PH">Philippines</option>
+                                                <option value="PN">Pitcairn</option>
+                                                <option value="PL">Poland</option>
+                                                <option value="PT">Portugal</option>
+                                                <option value="PR">Puerto Rico</option>
+                                                <option value="QA">Qatar</option>
+                                                <option value="RE">Réunion</option>
+                                                <option value="RO">Romania</option>
+                                                <option value="RU">Russian Federation</option>
+                                                <option value="RW">Rwanda</option>
+                                                <option value="BL">Saint Barthélemy</option>
+                                                <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                                                <option value="KN">Saint Kitts and Nevis</option>
+                                                <option value="LC">Saint Lucia</option>
+                                                <option value="MF">Saint Martin (French part)</option>
+                                                <option value="PM">Saint Pierre and Miquelon</option>
+                                                <option value="VC">Saint Vincent and the Grenadines</option>
+                                                <option value="WS">Samoa</option>
+                                                <option value="SM">San Marino</option>
+                                                <option value="ST">Sao Tome and Principe</option>
+                                                <option value="SA">Saudi Arabia</option>
+                                                <option value="SN">Senegal</option>
+                                                <option value="RS">Serbia</option>
+                                                <option value="SC">Seychelles</option>
+                                                <option value="SL">Sierra Leیک</option>
+                                                <option value="SG">Singapore</option>
+                                                <option value="SX">Sint Maarten (Dutch part)</option>
+                                                <option value="SK">Slovakia</option>
+                                                <option value="SI">Slovenia</option>
+                                                <option value="SB">Solomon Islands</option>
+                                                <option value="SO">Somalia</option>
+                                                <option value="ZA"> آفریقای جنوبی </option>
+                                                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                                <option value="SS">South Sudan</option>
+                                                <option value="ES">Spain</option>
+                                                <option value="LK">Sri Lanka</option>
+                                                <option value="SD">Sudan</option>
+                                                <option value="SR">Suriname</option>
+                                                <option value="SJ">Svalbard and Jan Mayen</option>
+                                                <option value="SZ">Swaziland</option>
+                                                <option value="SE">Sweden</option>
+                                                <option value="CH">Switzerland</option>
+                                                <option value="SY">Syrian Arab Republic</option>
+                                                <option value="TW">Taiwan, Province of China</option>
+                                                <option value="TJ">Tajikistan</option>
+                                                <option value="TZ">Tanzania, United Republic of</option>
+                                                <option value="TH">Thailand</option>
+                                                <option value="TL">Timor-Leste</option>
+                                                <option value="TG">Togo</option>
+                                                <option value="TK">Tokelau</option>
+                                                <option value="TO">Tonga</option>
+                                                <option value="TT">Trinidad and Tobago</option>
+                                                <option value="TN">Tunisia</option>
+                                                <option value="TR">Turkey</option>
+                                                <option value="TM">Turkmenistan</option>
+                                                <option value="TC">Turks and Caicos Islands</option>
+                                                <option value="TV">Tuvalu</option>
+                                                <option value="UG">Uganda</option>
+                                                <option value="UA">Ukraine</option>
+                                                <option value="AE">United Arab Emirates</option>
+                                                <option value="GB">United Kingdom</option>
+                                                <option value="US">United States</option>
+                                                <option value="UM">United States Minor Outlying Islands</option>
+                                                <option value="UY">Uruguay</option>
+                                                <option value="UZ">Uzbekistan</option>
+                                                <option value="VU">Vanuatu</option>
+                                                <option value="VE">Venezuela, Bolivarian Republic of</option>
+                                                <option value="VN">Viet Nam</option>
+                                                <option value="VG">Virgin Islands, British</option>
+                                                <option value="VI">Virgin Islands, U.S.</option>
+                                                <option value="WF">Wallis and Futuna</option>
+                                                <option value="EH">Western Sahara</option>
+                                                <option value="YE">Yemen</option>
+                                                <option value="ZM">Zambia</option>
+                                                <option value="ZW">Zimbabwe</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <label>شهر</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <label>استان / شهر</label>
+                                            <select class="form-control" data-live-search="true" tabindex="-1" aria-hidden="true">
+                                                <option value="AL">تهران</option>
+                                                <option value="AK">کرمان</option>
+                                                <option value="AZ">یزد</option>
+                                                <option value="AR">خوزستان</option>
+                                                <option value="CA">بابلسر</option>
+                                                <option value="CO">اصفهان</option>
+                                                <option value="CT">شیراز</option>
+                                                <option value="DE">بندرعباس</option>
+                                                <option value="DC">بندرانزلی</option>
+                                                <option value="FL">ساوه</option>
+                                          
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <label>کد پستی</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <br>
+                            <br>
+                            <h5 class="m-0">مجوز جدید نام و مشخصات شخص</h5>
+                            <hr>
+                            <div class="form-group row">
+                                <div class="col-lg-6 col-md-6">
+                                    <label>نام کوچک</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <label>نام خانوادگی</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-lg-6 col-md-6">
+                                    <label>ایمیل</label>
+                                    <input type="email" class="form-control" placeholder="">
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <label>شماره تلفن</label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <label>کشور</label>
+                                            <select class="form-control " data-live-search="true" tabindex="-1" aria-hidden="true">
+                                                <option value="AF">ایران</option>
+                                                <option value="AX">Åland Islands</option>
+                                                <option value="AL">Albania</option>
+                                                <option value="DZ">Algeria</option>
+                                                <option value="AS">American Samoa</option>
+                                                <option value="AD">Andorra</option>
+                                                <option value="AO">Angola</option>
+                                                <option value="AI">Anguilla</option>
+                                                <option value="AQ">Antarctica</option>
+                                                <option value="AG">Antigua and Barbuda</option>
+                                                <option value="AR">Argentina</option>
+                                                <option value="AM">Armenia</option>
+                                                <option value="AW">Aruba</option>
+                                                <option value="AU">Australia</option>
+                                                <option value="AT">Austria</option>
+                                                <option value="AZ">Azerbaijan</option>
+                                                <option value="BS">Bahamas</option>
+                                                <option value="BH">Bahrain</option>
+                                                <option value="BD">Bangladesh</option>
+                                                <option value="BB">Barbados</option>
+                                                <option value="BY">Belarus</option>
+                                                <option value="BE">Belgium</option>
+                                                <option value="BZ">Belize</option>
+                                                <option value="BJ">Benin</option>
+                                                <option value="BM">Bermuda</option>
+                                                <option value="BT">Bhutan</option>
+                                                <option value="BO">Bolivia, Plurinational State of</option>
+                                                <option value="BQ">Bonaire, Sint Eustatius and Saba</option>
+                                                <option value="BA">Bosnia and Herzegovina</option>
+                                                <option value="BW">Botswana</option>
+                                                <option value="BV">Bouvet Island</option>
+                                                <option value="BR">Brazil</option>
+                                                <option value="IO">British Indian Ocean Territory</option>
+                                                <option value="BN">Brunei Darussalam</option>
+                                                <option value="BG">Bulgaria</option>
+                                                <option value="BF">Burkina Faso</option>
+                                                <option value="BI">Burundi</option>
+                                                <option value="KH">Cambodia</option>
+                                                <option value="CM">Cameroon</option>
+                                                <option value="CA">Canada</option>
+                                                <option value="CV">Cape Verde</option>
+                                                <option value="KY">Cayman Islands</option>
+                                                <option value="CF">Central African Republic</option>
+                                                <option value="TD">Chad</option>
+                                                <option value="CL">Chile</option>
+                                                <option value="CN">China</option>
+                                                <option value="CX">Christmas Island</option>
+                                                <option value="CC">Cocos (Keeling) Islands</option>
+                                                <option value="CO">Colombia</option>
+                                                <option value="KM">Comoros</option>
+                                                <option value="CG">Congo</option>
+                                                <option value="CD">Congo, the Democratic Republic of the</option>
+                                                <option value="CK">Cook Islands</option>
+                                                <option value="CR">Costa Rica</option>
+                                                <option value="CI">Côte d'Ivoire</option>
+                                                <option value="HR">Croatia</option>
+                                                <option value="CU">Cuba</option>
+                                                <option value="CW">Curaçao</option>
+                                                <option value="CY">Cyprus</option>
+                                                <option value="CZ">Czech Republic</option>
+                                                <option value="DK">Denmark</option>
+                                                <option value="DJ">Djibouti</option>
+                                                <option value="DM">Dominica</option>
+                                                <option value="DO">Dominican Republic</option>
+                                                <option value="EC">Ecuador</option>
+                                                <option value="EG">Egypt</option>
+                                                <option value="SV">El Salvador</option>
+                                                <option value="GQ">Equatorial Guinea</option>
+                                                <option value="ER">Eritrea</option>
+                                                <option value="EE">Estonia</option>
+                                                <option value="ET">Ethiopia</option>
+                                                <option value="FK">Falkland Islands (Malvinas)</option>
+                                                <option value="FO">Faroe Islands</option>
+                                                <option value="FJ">Fiji</option>
+                                                <option value="FI">Finland</option>
+                                                <option value="FR">France</option>
+                                                <option value="GF">French Guiana</option>
+                                                <option value="PF">French Polynesia</option>
+                                                <option value="TF">French Southern Territories</option>
+                                                <option value="GA">Gabon</option>
+                                                <option value="GM">Gambia</option>
+                                                <option value="GE">شیراز</option>
+                                                <option value="DE">Germany</option>
+                                                <option value="GH">Ghana</option>
+                                                <option value="GI">Gibraltar</option>
+                                                <option value="GR">Greece</option>
+                                                <option value="GL">Greenland</option>
+                                                <option value="GD">Grenada</option>
+                                                <option value="GP">Guadeloupe</option>
+                                                <option value="GU">Guam</option>
+                                                <option value="GT">Guatemala</option>
+                                                <option value="GG">Guernsey</option>
+                                                <option value="GN">Guinea</option>
+                                                <option value="GW">Guinea-Bissau</option>
+                                                <option value="GY">Guyana</option>
+                                                <option value="HT">Haiti</option>
+                                                <option value="HM">Heard Island and McDonald Islands</option>
+                                                <option value="VA">Holy See (Vatican City State)</option>
+                                                <option value="HN">Honduras</option>
+                                                <option value="HK">Hong Kong</option>
+                                                <option value="HU">Hungary</option>
+                                                <option value="IS">Iceland</option>
+                                                <option value="IN">India</option>
+                                                <option value="ID">Indonesia</option>
+                                                <option value="IR">Iran, Islamic Republic of</option>
+                                                <option value="IQ">Iraq</option>
+                                                <option value="IE">Ireland</option>
+                                                <option value="IM">Isle of Man</option>
+                                                <option value="IL">Israel</option>
+                                                <option value="IT">Italy</option>
+                                                <option value="JM">Jamaica</option>
+                                                <option value="JP">Japan</option>
+                                                <option value="JE">Jersey</option>
+                                                <option value="JO">Jordan</option>
+                                                <option value="KZ">Kazakhstan</option>
+                                                <option value="KE">Kenya</option>
+                                                <option value="KI">Kiribati</option>
+                                                <option value="KP">Korea, Democratic People's Republic of</option>
+                                                <option value="KR">Korea, Republic of</option>
+                                                <option value="KW">Kuwait</option>
+                                                <option value="KG">Kyrgyzstan</option>
+                                                <option value="LA">Lao People's Democratic Republic</option>
+                                                <option value="LV">Latvia</option>
+                                                <option value="LB">Lebanon</option>
+                                                <option value="LS">Lesotho</option>
+                                                <option value="LR">Liberia</option>
+                                                <option value="LY">Libya</option>
+                                                <option value="LI">Liechtenstein</option>
+                                                <option value="LT">Lithuania</option>
+                                                <option value="LU">Luxembourg</option>
+                                                <option value="MO">Macao</option>
+                                                <option value="MK">Macedonia, the former Yugoslav Republic of</option>
+                                                <option value="MG">Madagascar</option>
+                                                <option value="MW">Malawi</option>
+                                                <option value="MY">Malaysia</option>
+                                                <option value="MV">Maldives</option>
+                                                <option value="ML">Mali</option>
+                                                <option value="MT">Malta</option>
+                                                <option value="MH">Marshall Islands</option>
+                                                <option value="MQ">Martinique</option>
+                                                <option value="MR">Mauritania</option>
+                                                <option value="MU">Mauritius</option>
+                                                <option value="YT">Mayotte</option>
+                                                <option value="MX">Mexico</option>
+                                                <option value="FM">Micronesia, Federated States of</option>
+                                                <option value="MD">Moldova, Republic of</option>
+                                                <option value="MC">Monaco</option>
+                                                <option value="MN">Mongolia</option>
+                                                <option value="ME">Montenegro</option>
+                                                <option value="MS">Montserrat</option>
+                                                <option value="MA">Morocco</option>
+                                                <option value="MZ">Mozambique</option>
+                                                <option value="MM">Myanmar</option>
+                                                <option value="NA">Namibia</option>
+                                                <option value="NR">Nauru</option>
+                                                <option value="NP">Nepal</option>
+                                                <option value="NL">Netherlands</option>
+                                                <option value="NC">New Caledonia</option>
+                                                <option value="NZ">New Zealand</option>
+                                                <option value="NI">Nicaragua</option>
+                                                <option value="NE">Niger</option>
+                                                <option value="NG">Nigeria</option>
+                                                <option value="NU">Niue</option>
+                                                <option value="NF">Norfolk Island</option>
+                                                <option value="MP">Northern Mariana Islands</option>
+                                                <option value="NO">Norway</option>
+                                                <option value="OM">Oman</option>
+                                                <option value="PK">Pakistan</option>
+                                                <option value="PW">Palau</option>
+                                                <option value="PS">Palestinian Territory, Occupied</option>
+                                                <option value="PA">Panama</option>
+                                                <option value="PG">Papua New Guinea</option>
+                                                <option value="PY">Paraguay</option>
+                                                <option value="PE">Peru</option>
+                                                <option value="PH">Philippines</option>
+                                                <option value="PN">Pitcairn</option>
+                                                <option value="PL">Poland</option>
+                                                <option value="PT">Portugal</option>
+                                                <option value="PR">Puerto Rico</option>
+                                                <option value="QA">Qatar</option>
+                                                <option value="RE">Réunion</option>
+                                                <option value="RO">Romania</option>
+                                                <option value="RU">Russian Federation</option>
+                                                <option value="RW">Rwanda</option>
+                                                <option value="BL">Saint Barthélemy</option>
+                                                <option value="SH">Saint Helena, Ascension and Tristan da Cunha</option>
+                                                <option value="KN">Saint Kitts and Nevis</option>
+                                                <option value="LC">Saint Lucia</option>
+                                                <option value="MF">Saint Martin (French part)</option>
+                                                <option value="PM">Saint Pierre and Miquelon</option>
+                                                <option value="VC">Saint Vincent and the Grenadines</option>
+                                                <option value="WS">Samoa</option>
+                                                <option value="SM">San Marino</option>
+                                                <option value="ST">Sao Tome and Principe</option>
+                                                <option value="SA">Saudi Arabia</option>
+                                                <option value="SN">Senegal</option>
+                                                <option value="RS">Serbia</option>
+                                                <option value="SC">Seychelles</option>
+                                                <option value="SL">Sierra Leیک</option>
+                                                <option value="SG">Singapore</option>
+                                                <option value="SX">Sint Maarten (Dutch part)</option>
+                                                <option value="SK">Slovakia</option>
+                                                <option value="SI">Slovenia</option>
+                                                <option value="SB">Solomon Islands</option>
+                                                <option value="SO">Somalia</option>
+                                                <option value="ZA"> آفریقای جنوبی </option>
+                                                <option value="GS">South Georgia and the South Sandwich Islands</option>
+                                                <option value="SS">South Sudan</option>
+                                                <option value="ES">Spain</option>
+                                                <option value="LK">Sri Lanka</option>
+                                                <option value="SD">Sudan</option>
+                                                <option value="SR">Suriname</option>
+                                                <option value="SJ">Svalbard and Jan Mayen</option>
+                                                <option value="SZ">Swaziland</option>
+                                                <option value="SE">Sweden</option>
+                                                <option value="CH">Switzerland</option>
+                                                <option value="SY">Syrian Arab Republic</option>
+                                                <option value="TW">Taiwan, Province of China</option>
+                                                <option value="TJ">Tajikistan</option>
+                                                <option value="TZ">Tanzania, United Republic of</option>
+                                                <option value="TH">Thailand</option>
+                                                <option value="TL">Timor-Leste</option>
+                                                <option value="TG">Togo</option>
+                                                <option value="TK">Tokelau</option>
+                                                <option value="TO">Tonga</option>
+                                                <option value="TT">Trinidad and Tobago</option>
+                                                <option value="TN">Tunisia</option>
+                                                <option value="TR">Turkey</option>
+                                                <option value="TM">Turkmenistan</option>
+                                                <option value="TC">Turks and Caicos Islands</option>
+                                                <option value="TV">Tuvalu</option>
+                                                <option value="UG">Uganda</option>
+                                                <option value="UA">Ukraine</option>
+                                                <option value="AE">United Arab Emirates</option>
+                                                <option value="GB">United Kingdom</option>
+                                                <option value="US">United States</option>
+                                                <option value="UM">United States Minor Outlying Islands</option>
+                                                <option value="UY">Uruguay</option>
+                                                <option value="UZ">Uzbekistan</option>
+                                                <option value="VU">Vanuatu</option>
+                                                <option value="VE">Venezuela, Bolivarian Republic of</option>
+                                                <option value="VN">Viet Nam</option>
+                                                <option value="VG">Virgin Islands, British</option>
+                                                <option value="VI">Virgin Islands, U.S.</option>
+                                                <option value="WF">Wallis and Futuna</option>
+                                                <option value="EH">Western Sahara</option>
+                                                <option value="YE">Yemen</option>
+                                                <option value="ZM">Zambia</option>
+                                                <option value="ZW">Zimbabwe</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <label>شهر</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <label>استان / شهر</label>
+                                            <select class="form-control" data-live-search="true" tabindex="-1" aria-hidden="true">
+                                                <option value="AL">تهران</option>
+                                                <option value="AK">کرمان</option>
+                                                <option value="AZ">یزد</option>
+                                                <option value="AR">خوزستان</option>
+                                                <option value="CA">بابلسر</option>
+                                                <option value="CO">اصفهان</option>
+                                                <option value="CT">شیراز</option>
+                                                <option value="DE">بندرعباس</option>
+                                                <option value="DC">بندرانزلی</option>
+                                                <option value="FL">ساوه</option>
+                                              
+                                                <option value="HI">قم</option>
+                                            
+                                            </select>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <label>کد پستی</label>
+                                            <input type="text" class="form-control" placeholder="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group ">
+                                        <div class="custom-control custom-checkbox">
+                                            <input type="checkbox" class="custom-control-input" id="agreement">
+                                            <label class="custom-control-label" for="agreement">من موافقم با شرایط و ضوابط. </label>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12">
+                                    <label> پیوست ها </label>
+                                    <br>
+                                    <div class="custom-dropzone text-center align-items-center" id="my-dropzone">
+                                        <div class="dz-default dz-message" data-dz-message>
+                                            <h3 class="mb-0"><i class="material-icons">cloud_download</i></h3>
+                                            <p>اینجا را رها کنید یا برای بارگذاری اینجا را کلیک کنید</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-lg-6 col-md-6">
+                                    <label>مکان </label>
+                                    <input type="text" class="form-control" placeholder="">
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <label>تاریخ </label>
+                                    <input type="text" class="form-control normal-example" placeholder="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">بستن</button>
+                    <button type="button" class="btn btn-primary">ارسال</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- modal for create form ends-->
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="vendor/bootstrap-4.1.3/js/bootstrap.min.js"></script>
+
+    <!-- Cookie jquery file -->
+    <script src="vendor/cookie/jquery.cookie.js"></script>
+
+    <!-- sparklines chart jquery file -->
+    <script src="vendor/sparklines/jquery.sparkline.min.js"></script>
+
+    <!-- Circular progress gauge jquery file -->
+    <script src="vendor/circle-progress/circle-progress.min.js"></script>
+
+    <!-- Swiper carousel jquery file -->
+    <script src="vendor/swiper/js/swiper.min.js"></script>
+
+    <!-- Chart js jquery file -->
+    <script src="vendor/chartjs/Chart.bundle.min.js"></script>
+    <script src="vendor/chartjs/utils.js"></script>
+
+    <!-- Footable jquery file -->
+    <script src="vendor/footable-bootstrap/js/footable.min.js"></script>
+
+    <!-- datepicker jquery file -->
+    <script src="vendor/bootstrap-daterangepicker-master/moment.js"></script>
+    <script src="vendor/bootstrap-daterangepicker-master/daterangepicker.js"></script>
+
+    <!-- نقشه بردار jquery file -->
+    <script src="vendor/jquery-jvectormap/jquery-jvectormap.js"></script>
+    <script src="vendor/jquery-jvectormap/jquery-jvectormap-world-mill-en.js"></script>
+     <script src="https://unpkg.com/persian-date@1.1.0/dist/persian-date.min.js"></script>
+     <script src="https://unpkg.com/persian-datepicker@1.2.0/dist/js/persian-datepicker.min.js"></script>
+     <script src="https://unpkg.com/persian-datepicker@1.2.0/dist/css/persian-datepicker.min.css"></script>
+
+    <!-- Bootstrap tour jquery file -->
+    <script src="vendor/bootstrap_tour/js/bootstrap-tour-standalone.min.js"></script>
+
+    <!-- jquery toast message file -->
+    <script src="vendor/jquery-toast-plugin-master/dist/jquery.toast.min.js"></script>
+
+    <!-- Application main common jquery file -->
+    <script src="js/main.js"></script>
+
+    <!-- page specific script -->
+    <script src="js/dashboard.js"></script>
+
+    <!-- page specific script -->
+    <script>
+        "use script";
+        $(window).on('load', function() {
+            var tour = new Tour({
+                steps: [{
+                    element: "#left-menu",
+                    title: "منو اصلی ",
+                    content: "به منو دسترسی داشته باشید",
+                    smartPlacement: true,
+                    storage:false
+                }, {
+                    element: "button[data-target='#createOrder']",
+                    title: "فرم ها",
+                    content: "فرم ها با تم و رنگ بندی متفاوت ",
+                    smartPlacement: true,
+                    placement: "left",
+                    storage:false
+
+                }, {
+                    element: ".close-sidebar",
+                    title: "تنظیمات منو",
+                    content: "تغییر تنظیمات",
+                    smartPlacement: true,
+                    placement: "left",
+                    storage:false
+
+                }]
+
+            });
+
+            // Initialize the tour
+            tour.init();
+
+            // Start the tour
+            tour.start();
+        });
+        $('.normal-example').persianDatepicker({
+            format: 'YYYY/MM/DD',
+        });
+
+    </script>
+
+</body>
+
+</html>
